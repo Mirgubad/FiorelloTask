@@ -24,7 +24,7 @@
                             <td>@faqcomponent.Title</td>
                             <td>@Html.Raw(faqcomponent.Description)</td>
                             <td>
-                                <form method="post" asp-action="delete" asp-controller="faqpage" asp-route-id="@faqcomponent.Id">
+                                <form class="d-flex gap-2" method="post" asp-action="delete" asp-controller="faqpage" asp-route-id="@faqcomponent.Id">
                                     <a asp-action="update" asp-controller="faqpage" asp-route-id="@faqcomponent.Id" class="btn btn-warning">Update</a>
                                     <a asp-action="details" asp-controller="faqpage" asp-route-id="@faqcomponent.Id" class="btn btn-info">Details</a>
                                     <button class="btn btn-danger">Delete</button>

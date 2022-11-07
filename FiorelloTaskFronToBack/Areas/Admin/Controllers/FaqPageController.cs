@@ -1,5 +1,6 @@
 ﻿using FiorelloTaskFronToBack.Areas.Admin.ViewModels.FaqPage;
 using FiorelloTaskFronToBack.DAL;
+using FiorelloTaskFronToBack.Migrations;
 using FiorelloTaskFronToBack.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +16,7 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
         public FaqPageController(AppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
+
         }
         public async Task<IActionResult> Index()
         {
@@ -34,6 +36,7 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(FaqPageCreateViewModel model)
         {
+
             if (!ModelState.IsValid) return View(model);
             bool isExist = await _appDbContext.FaqComponents
                 .AnyAsync(t => t.Title.ToLower().Trim() == model.Title.ToLower().Trim());
@@ -43,14 +46,27 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
                 ModelState.AddModelError("Title", "This faq already created ");
                 return View(model);
             }
+            var dbfaq = await _appDbContext.FaqComponents.ToListAsync();
 
+            var order = dbfaq.Count;
+            if (dbfaq.Count == 0)
+            {
+                order = 1;
+            }
+            else
+            {
+                order++;
+            }
             var faqcomponent = new FaqComponent
             {
                 Title = model.Title,
-                Description = model.Description
+                Description = model.Description,
+                Order = order,
             };
+
             await _appDbContext.FaqComponents.AddAsync(faqcomponent);
             await _appDbContext.SaveChangesAsync();
+
             return RedirectToAction("index");
         }
 
@@ -62,8 +78,8 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
 
             var model = new FaqComponentUpdateViewModel
             {
-                Title = faqcomponent.Title, 
-                Description=faqcomponent.Description,   
+                Title = faqcomponent.Title,
+                Description = faqcomponent.Description,
 
             };
             return View(model);
@@ -89,9 +105,10 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
             var model = new FaqComponentDetailsViewModel
             {
 
-                Id=faqcomponent.Id,
-                Title=faqcomponent.Title,
-                Description=faqcomponent.Description
+                Id = faqcomponent.Id,
+                Title = faqcomponent.Title,
+                Description = faqcomponent.Description,
+                Order = faqcomponent.Order,
             };
             return View(model);
         }
@@ -105,6 +122,31 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
             _appDbContext.FaqComponents.Remove(faqcomponent);
             await _appDbContext.SaveChangesAsync();
             return RedirectToAction("index");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> UpdateOrder(int id)
+        {
+            var dbfaq = await _appDbContext.FaqComponents.FindAsync(id);
+            if (dbfaq == null) return NotFound();
+            var model = new FaqPageUpdateOrderViewModel
+            {
+                Order = dbfaq.Order,
+            };
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateOrder(int id, FaqPageUpdateOrderViewModel model)
+        {
+            var dbfaq = await _appDbContext.FaqComponents.FindAsync(id);
+            if (dbfaq == null) return NotFound();
+            if (!ModelState.IsValid) return View(model);
+            dbfaq.Order = model.Order;
+            await _appDbContext.SaveChangesAsync();
+
+            return RedirectToAction("details", "faqpage", new {id=dbfaq.Id});
+
         }
     }
 }

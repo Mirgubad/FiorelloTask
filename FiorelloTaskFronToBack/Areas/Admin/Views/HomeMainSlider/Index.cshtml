@@ -25,7 +25,7 @@
                                 <td>@Model.HomeMainSlider.Title</td>
                                 <td>@Html.Raw(Model.HomeMainSlider.Description)</td>
                                 <td>
-                                    <form method="post" asp-action="delete" asp-controller="homemainslider" asp-route-id="@Model.HomeMainSlider.Id">
+                                    <form class="d-flex gap-2" method="post" asp-action="delete" asp-controller="homemainslider" asp-route-id="@Model.HomeMainSlider.Id">
                                         <a asp-action="update" asp-controller="homemainslider" asp-route-id="@Model.HomeMainSlider.Id" class="btn btn-warning">Update</a>
                                         <a asp-action="details" asp-controller="homemainslider" asp-route-id="@Model.HomeMainSlider.Id" class="btn btn-info">Details</a>
                                         <button class="btn btn-danger">Delete</button>

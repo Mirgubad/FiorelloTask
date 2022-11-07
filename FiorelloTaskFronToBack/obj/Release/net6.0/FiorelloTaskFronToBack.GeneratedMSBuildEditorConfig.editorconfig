@@ -15,6 +15,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\MD\source\repos\FiorelloTaskFronToBack\FiorelloTaskFronToBack
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/Blog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/Blog/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -31,8 +47,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmFxUGFnZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/FaqPage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmFxUGFnZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/FaqPage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmFxUGFnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/FaqPage/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmFxUGFnZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/FlowerExpert/Create.cshtml]
@@ -49,6 +73,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/FlowerExpert/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmxvd2VyRXhwZXJ0XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/HomeMainSlider/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZU1haW5TbGlkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/HomeMainSlider/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZU1haW5TbGlkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/HomeMainSlider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZU1haW5TbGlkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/HomeMainSlider/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZU1haW5TbGlkZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/HomeMainSlider/UpdatePhoto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZU1haW5TbGlkZXJcVXBkYXRlUGhvdG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/Home/Index.cshtml]

@@ -59,6 +59,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmFxUGFnZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/FaqPage/UpdateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmFxUGFnZVxVcGRhdGVPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Areas/Admin/Views/FlowerExpert/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmxvd2VyRXhwZXJ0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -165,10 +169,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Views/Page/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MD/source/repos/FiorelloTaskFronToBack/FiorelloTaskFronToBack/Views/Product/Details.cshtml]
