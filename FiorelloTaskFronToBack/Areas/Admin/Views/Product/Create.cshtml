@@ -1,0 +1,79 @@
+﻿@using FiorelloTaskFronToBack.Areas.Admin.ViewModels.Product;
+@using FiorelloTaskFronToBack.Models
+@model ProductCreateViewModel;
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">ADD Category</h4>
+            <div class="row">
+                <form method="post" asp-action="create" asp-controller="product" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="@Model.Title"></label>
+                        <input asp-for="@Model.Title" class="form-control">
+                        <span asp-validation-for="@Model.Title"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.Description"></label>
+                        <textarea asp-for="@Model.Description" class="form-control"></textarea>
+                        <span asp-validation-for="@Model.Description"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.Cost"></label>
+                        <input asp-for="@Model.Cost" class="form-control">
+                        <span asp-validation-for="@Model.Cost"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.Quantity"></label>
+                        <input asp-for="@Model.Quantity" class="form-control">
+                        <span asp-validation-for="@Model.Quantity"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.Weight"></label>
+                        <input asp-for="@Model.Weight" class="form-control">
+                        <span asp-validation-for="@Model.Weight"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.CategoryId"></label>
+                        <select asp-for="@Model.CategoryId" asp-items="@Model.Categories" class="form-control"></select>
+                        <span asp-validation-for="@Model.CategoryId"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.Status"></label>
+                      
+                        <select asp-for="@Model.Status" asp-items="@Html.GetEnumSelectList<CategoryStatus>()" class="form-control"></select>
+                        <span asp-validation-for="@Model.Status"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.MainPhoto"></label>
+                        <input asp-for="@Model.MainPhoto" class="form-control">
+                        <span asp-validation-for="@Model.MainPhoto"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.Photos"></label>
+                        <input asp-for="@Model.Photos" class="form-control">
+                        <span asp-validation-for="@Model.Photos"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @await Html.PartialAsync("_FormValidationPartial")
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.2.1/classic/ckeditor.js"></script>
+
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#Description'))
+            .then(editor => {
+                console.log(editor);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+}

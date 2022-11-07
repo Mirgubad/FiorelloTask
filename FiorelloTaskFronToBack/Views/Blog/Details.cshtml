@@ -1,0 +1,387 @@
+﻿@using FiorelloTaskFronToBack.ViewModels.Blog;
+@model BlogDetailsViewModel;
+
+
+
+<div class="mkdf-container">
+    <div class="mkdf-container-inner clearfix">
+        <div class="mkdf-grid-row mkdf-content-has-sidebar mkdf-grid-huge-gutter">
+            <div class="mkdf-page-content-holder mkdf-grid-col-9">
+                <div class="mkdf-blog-holder mkdf-blog-single mkdf-blog-single-standard">
+                    <article id="post-288" class="post-288 post type-post status-publish format-standard has-post-thumbnail hentry category-bouquets tag-bouquets tag-rose">
+                        <div class="mkdf-post-content">
+                            <div class="mkdf-post-heading">
+                                <div class="mkdf-post-image">
+                                   
+                                        <img style="width:900px;height:630px" width="1300" height="830" src="/assets/images/@Model.MainPhotoPath" class="attachment-full size-full wp-post-image" alt="a" loading="eager">
+                                   
+                                </div>
+                            </div>
+                            <div class="mkdf-post-text">
+                                <div class="mkdf-post-text-inner">
+                                    <div class="mkdf-post-text-main">
+                                        <h3 itemprop="name" class="entry-title mkdf-post-title">
+                                            @Model.Blogtext.Title
+                                        </h3> <section class="wpb-content-wrapper">
+                                            <div class="vc_row wpb_row vc_row-fluid">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    @Model.Blogtext.DescriptionHead
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><div class="vc_row wpb_row vc_row-fluid vc_custom_1525439566100">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    <blockquote>
+                                                                        <p>
+                                                                            “Let VanderSalm’s-Flipse be your first choice for flowers. Creative solutions for all your floral needs.”
+                                                                        </p>
+                                                                    </blockquote>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><div class="vc_row wpb_row vc_row-fluid">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    @Model.Blogtext.DescriptionHead
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><div class="vc_row wpb_row vc_row-fluid vc_custom_1525088910696 vc_column-gap-10">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="mkdf-image-gallery  mkdf-ig-masonry-fixed-type mkdf-tiny-space   mkdf-image-hover-shader mkdf-ig-masonry-type">
+                                                                <div class="mkdf-ig-inner mkdf-outer-space mkdf-ig-masonry mkdf-ig-three-columns" style="position: relative; height: 643.326px; opacity: 1;">
+                                                                    <div class="mkdf-ig-grid-sizer"></div>
+                                                                    <div class="mkdf-ig-grid-gutter"></div>
+                                                                    @{
+                                                                        foreach (var blogPhoto in Model.BlogPhotos)
+                                                                        {
+                                                                            <div class="mkdf-ig-image mkdf-item-space mkdf-image-gallery-masonry-fixed mkdf-default-masonry-item" style="position: absolute; left: 0%; top: 0px; height: 311.663px;">
+                                                                                <div class="mkdf-ig-image-inner">
+                                                                                    <img style="width:290px;height:300px" src="~/assets/images/@blogPhoto.PhotoPath" class="attachment-fiorello_mikado_square size-fiorello_mikado_square" alt="a" loading="eager">
+                                                                                </div>
+                                                                            </div>
+                                                                        }
+                                                                    }
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><div class="vc_row wpb_row vc_row-fluid vc_custom_1525091554450 mkdf-content-aligment-center">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <div class="vc_column-inner vc_custom_1525091424828">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    <p><em>“Be Awesome today!”</em></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><div class="vc_row wpb_row vc_row-fluid vc_custom_1525091759706">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    @Model.Blogtext.DescriptionEnd
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="mkdf-post-info-bottom clearfix">
+                                        <div class="mkdf-post-info-bottom-left">
+                                            <div itemprop="dateCreated" class="mkdf-post-info-date entry-date published updated">
+                                                <a itemprop="url" href="https://fiorello.qodeinteractive.com/2018/04/">
+                                               @foreach (var date in Model.Blog)
+                                               {
+                                                   if(date.Id==Model.Blogtext.BlogId)
+                                                   @date.Date.ToShortDateString()
+                                               }
+                                                </a>
+                                                <meta itemprop="interactionCount" content="UserComments: 2">
+                                            </div> <div class="mkdf-post-info-author">
+                                                <span class="mkdf-post-info-author-text">
+                                                    By
+                                                </span>
+                                                <a itemprop="author" class="mkdf-post-info-author-link" href="https://fiorello.qodeinteractive.com/author/shirley_burke/">
+                                                    Shirley Burke
+                                                </a>
+                                            </div> <div class="mkdf-post-info-comments-holder">
+                                                <a itemprop="url" class="mkdf-post-info-comments" href="https://fiorello.qodeinteractive.com/flower-power/#comments" target="_self">
+                                                    <i class="icon_comment_alt"></i>
+                                                    2
+                                                </a>
+                                            </div>
+                                            <div class="mkdf-blog-like">
+                                                <a href="#" class="mkdf-like" id="mkdf-like-288-617" title="Like this"><i class="dripicons-heart"></i><span>2</span></a>
+                                            </div>
+                                            <div class="mkdf-post-info-category">
+                                                <i class="icon_ribbon_alt"></i>
+                                                <a href="https://fiorello.qodeinteractive.com/category/bouquets/" rel="category tag">Bouquets</a>
+                                            </div> <div class="mkdf-tags-holder">
+                                                <div class="mkdf-tags">
+                                                    <i class="icon dripicons-tags"></i>
+                                                    <a href="https://fiorello.qodeinteractive.com/tag/bouquets/" rel="tag">Bouquets</a>, <a href="https://fiorello.qodeinteractive.com/tag/rose/" rel="tag">Rose</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mkdf-post-info-bottom-right">
+                                            <div class="mkdf-blog-share">
+                                                <div class="mkdf-share-shifter">
+                                                    <i class="mkdf-toggle-share social_share"></i>
+                                                    <div class="mkdf-social-share-holder mkdf-list">
+                                                        <ul>
+                                                            <li class="mkdf-facebook-share">
+                                                                <a itemprop="url" class="mkdf-share-link" href="#" onclick="window.open('https://www.facebook.com/sharer.php?u=https%3A%2F%2Ffiorello.qodeinteractive.com%2Fflower-power%2F', 'sharer', 'toolbar=0,status=0,width=620,height=280');">
+                                                                    <span class="mkdf-social-network-icon social_facebook"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="mkdf-twitter-share">
+                                                                <a itemprop="url" class="mkdf-share-link" href="#" onclick="window.open('https://twitter.com/intent/tweet?text=Class+aptent+taciti+sociosqu+ad+litora+torquent+per+conubia+nostra%2C+per+inceptos+himenaeos+ad.+Mauris+in+erat+justo.+ https://fiorello.qodeinteractive.com/flower-power/', 'popupwindow', 'scrollbars=yes,width=800,height=400');">
+                                                                    <span class="mkdf-social-network-icon social_twitter"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="mkdf-linkedin-share">
+                                                                <a itemprop="url" class="mkdf-share-link" href="#" onclick="popUp=window.open('https://linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Ffiorello.qodeinteractive.com%2Fflower-power%2F&amp;title=Flower+Power', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;">
+                                                                    <span class="mkdf-social-network-icon social_linkedin"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="mkdf-tumblr-share">
+                                                                <a itemprop="url" class="mkdf-share-link" href="#" onclick="popUp=window.open('https://www.tumblr.com/share/link?url=https%3A%2F%2Ffiorello.qodeinteractive.com%2Fflower-power%2F&amp;name=Flower+Power&amp;description=Class+aptent+taciti+sociosqu+ad+litora+torquent+per+conubia+nostra%2C+per+inceptos+himenaeos+ad.+Mauris+in+erat+justo.+Nullam+ac+urna+eu+felis+dapibus+condimentum+sit+amet+a+augue.+Sed+non+neque+elit.+Sed+ut+imperdiet+nisi.+Proin+condimentum+fermentum+nunc.+Etiam+pharetra%2C+erat+sed+fermentum+feugiat%2C+velit+mauris+egestas+quam%2C+ut+aliquam+massa+nisl+quis+neque.+Suspendisse+in+orci+enim.+This+is+Photoshop%27s+version+of+Lorem+Ipsum.+Proin+gravida+nibh+vel+velit+auctor+aliquet.+Aenean+sollicitudin%2C+lorem+quis+bibendum+auctor%2C+nisi+elit+consequat+ipsum%2C+nec+sagittis+sem', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;">
+                                                                    <span class="mkdf-social-network-icon social_tumblr"></span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article> <div class="mkdf-blog-single-navigation">
+                        <div class="mkdf-blog-single-navigation-inner clearfix">
+                            <a itemprop="url" class="mkdf-blog-single-prev" href="https://fiorello.qodeinteractive.com/only-the-best/">
+                                <span class="mkdf-icon-linear-icons lnr lnr-chevron-left"></span> <span class="mkdf-blog-single-nav-label">previous post</span>
+                            </a>
+                            <a itemprop="url" class="mkdf-blog-single-next" href="https://fiorello.qodeinteractive.com/local-florists/">
+                                <span class="mkdf-icon-linear-icons lnr lnr-chevron-right"></span> <span class="mkdf-blog-single-nav-label">next post</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mkdf-author-description">
+                        <div class="mkdf-author-description-inner">
+                            <div class="mkdf-author-description-content">
+                                <div class="mkdf-author-description-image">
+                                    <a itemprop="url" href="https://fiorello.qodeinteractive.com/author/shirley_burke/" title="Flower Power" target="_self">
+                                        <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/blog-author-img.png" class="avatar pp-user-avatar avatar-165 photo " height="165" width="165">
+                                    </a>
+                                </div>
+                                <div class="mkdf-author-description-text-holder">
+                                    <h4 class="mkdf-author-name vcard author">
+                                        <a itemprop="url" href="https://fiorello.qodeinteractive.com/author/shirley_burke/" title="Flower Power" target="_self">
+                                            <span class="fn">
+                                                Shirley Burke
+                                            </span>
+                                        </a>
+                                    </h4>
+                                    <div class="mkdf-author-text">
+                                        <div itemprop="description">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.</div>
+                                    </div>
+                                    <div class="mkdf-author-social-icons clearfix">
+                                        <a itemprop="url" href="https://www.facebook.com/QodeInteractive/" target="_blank">
+                                            <span aria-hidden="true" class="mkdf-icon-font-elegant social_facebook mkdf-author-social-facebook mkdf-author-social-icon "></span>
+                                        </a>
+                                        <a itemprop="url" href="https://twitter.com/QodeInteractive" target="_blank">
+                                            <span aria-hidden="true" class="mkdf-icon-font-elegant social_twitter mkdf-author-social-twitter mkdf-author-social-icon "></span>
+                                        </a>
+                                        <a itemprop="url" href="https://www.linkedin.com/company/qode-themes/" target="_blank">
+                                            <span aria-hidden="true" class="mkdf-icon-font-elegant social_linkedin mkdf-author-social-linkedin mkdf-author-social-icon "></span>
+                                        </a>
+                                        <a itemprop="url" href="https://www.instagram.com/qodeinteractive/" target="_blank">
+                                            <span aria-hidden="true" class="mkdf-icon-font-elegant social_instagram mkdf-author-social-instagram mkdf-author-social-icon "></span>
+                                        </a>
+                                        <a itemprop="url" href="https://www.pinterest.com/qodeinteractive/" target="_blank">
+                                            <span aria-hidden="true" class="mkdf-icon-font-elegant social_pinterest mkdf-author-social-pinterest mkdf-author-social-icon "></span>
+                                        </a>
+                                        <a itemprop="url" href="https://www.tumblr.com/" target="_blank">
+                                            <span aria-hidden="true" class="mkdf-icon-font-elegant social_tumblr mkdf-author-social-tumblr mkdf-author-social-icon "></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mkdf-comment-holder clearfix" id="comments">
+                        <div class="mkdf-comment-holder-inner">
+                            <div class="mkdf-comments-title">
+                                <h3>Comments</h3>
+                            </div>
+                            <div class="mkdf-comments">
+                                <ul class="mkdf-comment-list">
+                                    <li>
+                                        <div class="mkdf-comment clearfix">
+                                            <div class="mkdf-comment-image"> <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/blog-subscriber-img.png" class="avatar pp-user-avatar avatar-96 photo " height="96" width="96"> </div>
+                                            <div class="mkdf-comment-text">
+                                                <div class="mkdf-comment-info">
+                                                    <h6 class="mkdf-comment-name vcard">
+                                                        Patricia Hopkins
+                                                    </h6>
+                                                    <div class="mkdf-comment-date">30.04.2018</div>
+                                                </div>
+                                                <div class="mkdf-text-holder" id="comment-28">
+                                                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.</p>
+                                                </div>
+                                                <a rel="nofollow" class="comment-reply-link" href="https://fiorello.qodeinteractive.com/flower-power/?replytocom=28#respond" data-commentid="28" data-postid="288" data-belowelement="comment-28" data-respondelement="respond" data-replyto="Reply to Patricia Hopkins" aria-label="Reply to Patricia Hopkins">reply</a>
+                                            </div>
+                                        </div>
+                                        <ul class="children">
+                                            <li>
+                                                <div class="mkdf-comment clearfix">
+                                                    <div class="mkdf-comment-image"> <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/blog-subscriber-img-2.png" class="avatar pp-user-avatar avatar-96 photo " height="96" width="96"> </div>
+                                                    <div class="mkdf-comment-text">
+                                                        <div class="mkdf-comment-info">
+                                                            <h6 class="mkdf-comment-name vcard">
+                                                                Chris Jenkins
+                                                            </h6>
+                                                            <div class="mkdf-comment-date">30.04.2018</div>
+
+                                                        </div>
+                                                        <div class="mkdf-text-holder" id="comment-29">
+                                                            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.</p>
+                                                        </div>
+                                                        <a rel="nofollow" class="comment-reply-link" href="https://fiorello.qodeinteractive.com/flower-power/?replytocom=29#respond" data-commentid="29" data-postid="288" data-belowelement="comment-29" data-respondelement="respond" data-replyto="Reply to Chris Jenkins" aria-label="Reply to Chris Jenkins">reply</a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mkdf-comment-form">
+                        <div class="mkdf-comment-form-inner">
+                            <div id="respond" class="comment-respond">
+                                <h3 id="reply-title" class="comment-reply-title">Post a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/flower-power/#respond" style="display:none;">cancel reply</a></small></h3><form action="https://fiorello.qodeinteractive.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+                                    <textarea id="comment" placeholder="Your comment" name="comment" cols="45" rows="6" aria-required="true"></textarea><div class="mkdf-grid-row mkdf-grid-small-gutter">
+                                        <div class="mkdf-grid-col-4"><input id="author" name="author" placeholder="Your Name" type="text" value="" aria-required="true"></div>
+                                        <div class="mkdf-grid-col-4"><input id="email" name="email" placeholder="Your Email" type="text" value="" aria-required="true"></div>
+                                        <div class="mkdf-grid-col-4"><input id="url" name="url" placeholder="Website" type="text" value="" size="30" maxlength="200"></div>
+                                    </div>
+                                    <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+                                    <p class="form-submit">
+                                        <input name="submit" type="submit" id="submit_comment" class="submit" value="Submit"> <input type="hidden" name="comment_post_ID" value="288" id="comment_post_ID">
+                                        <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                                    </p><div class="wantispam-required-fields wantispam-form-processed">
+                                        <input type="hidden" name="wantispam_t" class="wantispam-control wantispam-control-t" value="1667727906"><div class="wantispam-group wantispam-group-q" style="clear: both; display: none;">
+                                            <label>Current ye@r <span class="required">*</span></label>
+                                            <input type="hidden" name="wantispam_a" class="wantispam-control wantispam-control-a" value="2022">
+                                            <input type="text" name="wantispam_q" class="wantispam-control wantispam-control-q" value="7.3.3" autocomplete="off">
+                                        </div>
+                                        <div class="wantispam-group wantispam-group-e" style="display: none;">
+                                            <label>Leave this field empty</label>
+                                            <input type="text" name="wantispam_e_email_url_website" class="wantispam-control wantispam-control-e" value="" autocomplete="off">
+                                        </div>
+                                        <input type="hidden" name="wantispam_d" class="wantispam-control wantispam-control-d" value="2022">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mkdf-sidebar-holder mkdf-grid-col-3">
+                <aside class="mkdf-sidebar">
+                    <div class="widget mkdf-search-post-type-widget">
+                        <div data-post-type="post" class="mkdf-search-post-type">
+                            <input class="mkdf-post-type-search-field" value="" placeholder="Search here">
+                            <i class="mkdf-search-icon icon_search" aria-hidden="true"></i>
+                            <i class="mkdf-search-loading fa fa-spinner fa-spin mkdf-hidden" aria-hidden="true"></i>
+                        </div>
+                        <div class="mkdf-post-type-search-results"></div>
+                    </div>
+                    <div class="widget mkdf-separator-widget">
+                        <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal" style="margin-top: -2px">
+                            <div class="mkdf-separator" style="border-style: solid"></div>
+                        </div>
+                    </div><div id="categories-2" class="widget widget_categories">
+                        <div class="mkdf-widget-title-holder"><h6 class="mkdf-widget-title">Categories</h6></div>
+                        <ul>
+                            <li class="cat-item cat-item-42">
+                                <a href="https://fiorello.qodeinteractive.com/category/bouquets/">Bouquets</a>
+                            </li>
+                            <li class="cat-item cat-item-45">
+                                <a href="https://fiorello.qodeinteractive.com/category/cactuses/">Cactuses</a>
+                            </li>
+                            <li class="cat-item cat-item-44">
+                                <a href="https://fiorello.qodeinteractive.com/category/exotic-blooms/">Exotic Blooms</a>
+                            </li>
+                            <li class="cat-item cat-item-43">
+                                <a href="https://fiorello.qodeinteractive.com/category/greens/">Greens</a>
+                            </li>
+                            <li class="cat-item cat-item-1">
+                                <a href="https://fiorello.qodeinteractive.com/category/plants/">Plants</a>
+                            </li>
+                            <li class="cat-item cat-item-41">
+                                <a href="https://fiorello.qodeinteractive.com/category/roses/">Roses</a>
+                            </li>
+                        </ul>
+                    </div><div class="widget mkdf-recent-post-widget">
+                        <div class="mkdf-widget-title-holder">
+                            <h6 class="mkdf-widget-title">Recent Posts</h6>
+                        </div><ul class="mkdf-recent-posts">
+                            @{
+                                foreach (var item in Model.Blog)
+                                {
+                                    <li class="mkdf-rp-item">
+                                        <a href="https://fiorello.qodeinteractive.com/say-you-care/">
+                                            <div class="mkdf-rp-image">
+                                                <img width="150" height="100" src="~/assets/images/@item.PhotoPath" class="attachment-thumbnail size-thumbnail wp-post-image" alt="aa" loading="eager">
+                                            </div>
+                                            <div class="mkdf-recent-posts-info">
+                                                <h6 class="mkdf-rp-title">@item.Title</h6><span class="mkdf-rp-date">@item.Date.ToShortDateString()</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div><div class="widget mkdf-separator-widget">
+                        <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal" style="margin-top: 22px;margin-bottom: 15px">
+                            <div class="mkdf-separator" style="border-style: solid"></div>
+                        </div>
+                    </div><div id="media_image-7" class="widget widget_media_image"><a href="https://fiorello.qodeinteractive.com/flower-shop/"><img width="310" height="171" src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/widget.jpg" class="image wp-image-2278  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" srcset="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/widget.jpg 310w, https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/widget-300x165.jpg 300w" sizes="(max-width: 310px) 100vw, 310px" loading="eager"></a></div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</div>

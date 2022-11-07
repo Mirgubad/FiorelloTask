@@ -1,0 +1,48 @@
+﻿@using FiorelloTaskFronToBack.Areas.Admin.ViewModels.HomeMainSlider;
+@model HomeMainSliderIndexViewModel;
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Faq Component Table</h4>
+
+            @{
+                if (Model.HomeMainSlider != null)
+                {
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Logo</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@Model.HomeMainSlider.Id</td>
+                                <td><img style="width:100px;height:100px" src="~/assets/images/@Model.HomeMainSlider.SubPhotoName" /></td>
+                                <td>@Model.HomeMainSlider.Title</td>
+                                <td>@Html.Raw(Model.HomeMainSlider.Description)</td>
+                                <td>
+                                    <form method="post" asp-action="delete" asp-controller="homemainslider" asp-route-id="@Model.HomeMainSlider.Id">
+                                        <a asp-action="update" asp-controller="homemainslider" asp-route-id="@Model.HomeMainSlider.Id" class="btn btn-warning">Update</a>
+                                        <a asp-action="details" asp-controller="homemainslider" asp-route-id="@Model.HomeMainSlider.Id" class="btn btn-info">Details</a>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <div>
+                        <a asp-action="create" asp-controller="homemainslider" class="btn btn-success">Add Home Main Slider</a>
+                    </div>
+                }
+            }
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,85 @@
+﻿@using FiorelloTaskFronToBack.Areas.Admin.ViewModels.Blog;
+@model BlogUpdateViewModel;
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Update Blog Component</h4>
+            <div class="row">
+                <form method="post" asp-action="update" asp-controller="blog" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="@Model.Title"></label>
+                        <input asp-for="@Model.Title" class="form-control">
+                        <span asp-validation-for="@Model.Title"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.Description"></label>
+                        <textarea asp-for="@Model.Description" class="form-control"></textarea>
+                        <span asp-validation-for="@Model.Description"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.Photo"></label>
+                        <input asp-for="@Model.Photo" class="form-control">
+                        <span asp-validation-for="@Model.Photo"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.Date"></label>
+                        <input asp-for="@Model.Date" class="form-control">
+                        <span asp-validation-for="@Model.Date"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.BlogPhotos"></label>
+                        <input asp-for="@Model.BlogPhotos" class="form-control">
+                        @{
+                            if (Html.ViewData.ModelState["BlogPhotos"] != null)
+                            {
+                                foreach (var error in Html.ViewData.ModelState["BlogPhotos"].Errors)
+                                {
+                                    <li class="text-danger">@error.ErrorMessage</li>
+                                }
+                            }
+
+                        }
+
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label asp-for="@Model.BlogText.Title"></label>
+                            <input asp-for="@Model.BlogText.Title" class="form-control">
+                            <span asp-validation-for="@Model.BlogText.Title"></span>
+                        </div>
+                        <label asp-for="@Model.BlogText.DescriptionHead"></label>
+                        <input asp-for="@Model.BlogText.DescriptionHead" class="form-control">
+                        <span asp-validation-for="@Model.BlogText.DescriptionHead"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.BlogText.DescriptionEnd"></label>
+                        <input asp-for="@Model.BlogText.DescriptionEnd" class="form-control">
+                        <span asp-validation-for="@Model.BlogText.DescriptionEnd"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <a class="btn btn-light" asp-action="index" asp-controller="blog" asp-area="admin">Cancel</a>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @await Html.PartialAsync("_FormValidationPartial")
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.2.1/classic/ckeditor.js"></script>
+
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#Description'))
+            .then(editor => {
+                console.log(editor);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+}

@@ -1,0 +1,72 @@
+﻿@using FiorelloTaskFronToBack.Areas.Admin.ViewModels.Product;
+@using FiorelloTaskFronToBack.Models
+@model ProductDetailsViewModel;
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h2> Main Photo</h2>
+            <input type="hidden" asp-for="@Model.PhotoPath">
+            <div class=" d-flex justify-content-center">
+                <img class="img-thumbnail" style="width:220px;height:220px" src="~/assets/images/@Model.PhotoPath" />
+            </div>
+            <h2>Photos</h2>
+            <div class="d-flex">
+                @{
+                    foreach (var photo in Model.ProductPhotos)
+                    {
+                        <div class="mx-2">
+                            <img class="img-thumbnail  mb-2" style="width:200px;height:200px" src="~/assets/images/@photo.Name" />
+                            <form method="post" asp-action="deletephoto" asp-controller="product" asp-route-id="@photo.Id" asp-area="admin">
+                                <a asp-action="updatephoto" asp-controller="product" asp-route-id="@photo.Id" asp-area="admin" class="btn btn-warning">Update</a>
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                        </div>
+                    }
+                }
+            </div>
+            <h4 class="card-title">Product Details</h4>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Cost</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Weight</th>
+                        <th scope="col">Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Id</td>
+                        <td>@Model.Title</td>
+                        <td>@Html.Raw(Model.Description)</td>
+                        <td>@Model.Quantity</td>
+                        <td>@Model.Cost</td>
+                        <td>
+                            @foreach (var i in Enum.GetNames(typeof(CategoryStatus)))
+                            {
+                                if (i == Model.Status.ToString())
+                                {
+                                    <a>@i</a>
+                                }
+                            }
+                        </td>
+                        <td>@Model.Weight</td>
+                        <td>
+                            @foreach (var item in Model.Categories)
+                            {
+                                if (item.Value == @Model.CategoryId.ToString())
+                                {
+                                    <a>@item.Text</a>
+                                }
+                            }
+                    </tr>
+                </tbody>
+            </table>
+            <a class="btn btn-light mt-2" asp-action="index" asp-controller="product">Cancel</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@using FiorelloTaskFronToBack.Areas.Admin.ViewModels.HomeMainSlider;
+@model HomeMainSliderDetailsViewModel;
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Home Main Slider Details </h4>
+            <div>
+
+                <h2>Photos</h2>
+                <div class="d-flex">
+                    @{
+                        foreach (var homeMainSlider in Model.HomeMainSliderPhotos)
+                        {
+                            <div class="mx-2">
+                                <h4>Order:@homeMainSlider.Order</h4>
+                                <img class="img-thumbnail mb-2" style="width:220px;height:130px" src="~/assets/images/@homeMainSlider.Name" />
+                                <form method="post" asp-action="deletephoto" asp-controller="homemainslider" asp-route-id="@homeMainSlider.Id">
+                                    <a asp-action="updatephoto" asp-controller="homemainslider" asp-route-id="@homeMainSlider.Id" class="btn btn-warning mx-2">Update</a>
+                                    <button class="btn btn-danger ">Delete</button>
+                                </form>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Logo</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Id</td>
+                        <td><img style="width:160px;height:100px" src="~/assets/images/@Model.SubPhotoPath" /></td>
+                        <td>@Model.Title</td>
+                        <td>@Html.Raw(Model.Description)</td>
+
+                    </tr>
+                </tbody>
+            </table>
+            <a class="btn btn-light mt-2" asp-action="index" asp-controller="homemainslider">Cancel</a>
+        </div>
+    </div>
+</div>

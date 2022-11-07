@@ -1,0 +1,40 @@
+﻿@using FiorelloTaskFronToBack.Areas.Admin.ViewModels.FlowerExpert;
+@model FlowerExpertIndexViewModel;
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Flower Experts Table</h4>
+            <div>
+                <a asp-action="create" asp-controller="flowerexpert" class="btn btn-success">Add Expert</a>
+            </div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Photo</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Surname</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var expert in Model.FlowerExpert)
+                    {
+                            <tr>
+                                <td><img class="img-thumbnail" style="width:80px;height:80px" src="~/assets/images/@expert.PhotoPath" /></td>
+                                <td>@expert.Name</td>
+                                <td>@expert.Surname</td>
+                                <td>
+                                    <form method="post" asp-action="delete" asp-controller="flowerexpert" asp-route-id="@expert.Id">
+                                        <a asp-action="update" asp-controller="flowerexpert" asp-route-id="@expert.Id" class="btn btn-warning">Update</a>
+                                        <a asp-action="details" asp-controller="flowerexpert" asp-route-id="@expert.Id" class="btn btn-info">Details</a>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

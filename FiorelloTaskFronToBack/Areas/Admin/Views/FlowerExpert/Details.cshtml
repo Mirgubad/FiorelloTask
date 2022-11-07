@@ -1,0 +1,33 @@
+﻿@using FiorelloTaskFronToBack.Areas.Admin.ViewModels.FlowerExpert;
+@model FlowerExpertDetailsViewModel;
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Flower Experts Details</h4>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Photo</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Surname</th>
+                        <th scope="col">Position</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Id</td>
+                        <td><img class="img-thumbnail" style="width:120px;height:120px" src="~/assets/images/@Model.PhotoPath" /></td>
+                        <td>@Model.Name</td>
+                        <td>@Model.Surname</td>
+                        <td>@Model.Position</td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+            <a asp-action="index" asp-controller="flowerexpert" class="btn btn-light mt-2">Cancel</a>
+
+        </div>
+    </div>
+</div>
