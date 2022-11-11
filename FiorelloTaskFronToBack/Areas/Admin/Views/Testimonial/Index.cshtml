@@ -26,10 +26,10 @@
                             <td>@testimonial.FlowerExpert.Name @testimonial.FlowerExpert.Surname</td>
                             <td>@testimonial.FlowerExpert.Id</td>
                             <td>
-                                <form method="post" asp-action="delete" asp-controller="testimonial" asp-route-id="@testimonial.Id">
+                                <form method="post" asp-action="delete" asp-controller="testimonial" asp-route-id="@testimonial.Id" class="d-flex">
                                     <a asp-action="update" asp-controller="testimonial" asp-route-id="@testimonial.Id" class="btn btn-warning">Update</a>
                                     <a asp-action="details" asp-controller="testimonial" asp-route-id="@testimonial.Id" class="btn btn-info">Details</a>
-                                    <button class="btn btn-danger">Delete</button>
+                                    <button type="submit" class="btn btn-danger">Delete</button>
                                 </form>
                             </td>
                         </tr>

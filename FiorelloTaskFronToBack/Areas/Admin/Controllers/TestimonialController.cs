@@ -116,7 +116,20 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
 
         #endregion
 
+        #region Delete
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var dbtestimonial = await _appDbContext.Testimonials.FindAsync(id);
+            if (dbtestimonial == null) return NotFound();
 
+            _appDbContext.Testimonials.Remove(dbtestimonial);
+
+            await _appDbContext.SaveChangesAsync();
+            return RedirectToAction("index");
+
+        }
+        #endregion
     }
 
 }
