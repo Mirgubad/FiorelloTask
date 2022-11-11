@@ -1,0 +1,38 @@
+﻿@using FiorelloTaskFronToBack.ViewModels.Account;
+@model AccountLogin
+
+<div class="mkdf-content">
+    <div class="mkdf-content-inner">
+        <div class="mkdf-container mkdf-default-page-template">
+            <div class="mkdf-container-inner clearfix">
+                <div class="mkdf-grid-row">
+                    <div class="mkdf-page-content-holder mkdf-grid-col-12">
+                        <div class="woocommerce">
+                            <div class="woocommerce-notices-wrapper"></div>
+                            <div class="row d-flex align-items-center justify-content-center">
+                                <h2 class="text-center">Login</h2>
+                                <div class="col-5">
+                                    <form class="woocommerce-form woocommerce-form-login login form-group" method="post">
+                                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                            <label asp-for="Username"></label>
+                                            <input class="woocommerce-Input woocommerce-Input--text input-text" asp-for="Username" />
+                                            <span class="text-danger" asp-validation-for="Username"></span>
+                                        </p>
+                                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                            <label asp-for="Password"></label>
+                                            <input asp-for="Password" class="woocommerce-Input woocommerce-Input--text input-text" />
+                                            <span class="text-danger" asp-validation-for="Password"></span>
+                                        </p>
+                                        <div asp-validation-summary="ModelOnly"></div>
+                                        <button type="submit">Login</button>
+                                        <p>Don't you have an account? <a asp-action="register" asp-controller="account" class="text-info">Sign up </a></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

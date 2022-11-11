@@ -7,7 +7,21 @@
         <div class="mkdf-pli mkdf-item-space ">
             <div class="mkdf-pli-inner">
                 <div class="mkdf-pli-image">
-                    <span class="mkdf-pli-new-product">@product.Status</span>
+                    @{
+                        if (@product.Status.ToString().ToLower() == "new")
+                        {
+                            <span class="mkdf-pli-new-product">@product.Status </span>
+                        }
+                        else if (@product.Status.ToString().ToLower() == "sold")
+                        {
+                            <span class="mkdf-pli-new-product bg-secondary">@product.Status </span>
+                        }
+                        else
+                        {
+                            <span class="mkdf-pli-new-product bg-warning">@product.Status </span>
+
+                        }
+                    }
                     <img width="620" height="800"
                  src="~/assets/images/@product.MainPhotoPath"
                  class="attachment-woocommerce_single size-woocommerce_single wp-post-image"

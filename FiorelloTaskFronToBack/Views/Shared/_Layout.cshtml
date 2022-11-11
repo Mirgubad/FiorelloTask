@@ -25,6 +25,7 @@
 	<link rel="dns-prefetch" href="http://static.zdassets.com/">
 	<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 	<link rel="dns-prefetch" href="http://s.w.org/">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="alternate" type="application/rss+xml" title="Fiorello » Feed" href="feed/index.html">
 	<link rel="alternate" type="application/rss+xml" title="Fiorello » Comments Feed" href="comments/feed/index.html">
 	<script type="text/javascript">
@@ -962,12 +963,27 @@
 																					Font</span></span></a></li>
 																</ul>
 															</li>
+															
 														</ul>
+										
 													</div>
+										
 												</div>
 											</li>
-										</ul>
+
+                                        </ul>
 									</nav>
+							@{
+                                            if (User.Identity.IsAuthenticated)
+                                            { 
+												<span>@User.Identity.Name</span>
+												<a asp-action="logout" asp-controller="account" title="LogOut" >
+											    <i class="fa fa-sign-out" aria-hidden="true"></i></a>                                            
+                                            }else
+											       {<a asp-action="login" asp-controller="account" title="Login" >
+											    <i class="fa fa-sign-in" aria-hidden="true"></i></a>
+											}
+                                        }
 									<a class="mkdf-search-opener mkdf-icon-has-hover mkdf-search-opener-icon-pack"
 										href="javascript:void(0)">
 										<span class="mkdf-search-opener-wrapper">

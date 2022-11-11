@@ -1,0 +1,47 @@
+﻿@using FiorelloTaskFronToBack.Models;
+@model List<Blog>;
+@{
+    foreach (var blog in Model)
+    {
+        <article id="post-@blog.Id"
+             class="mkdf-post-has-media mkdf-item-space post-814 post type-post status-publish format-standard has-post-thumbnail hentry category-greens tag-bouquets tag-rose">
+            <div class="mkdf-post-content">
+                <div class="mkdf-post-heading">
+                    <div class="mkdf-post-image">
+                        <a itemprop="url" asp-action="details" asp-controller="blog" asp-route-id="@blog.Id"
+                   title="@blog.Title">
+                            <img width="1300" height="830"
+                         src="~/assets/images/@blog.PhotoPath"
+                         class="attachment-full size-full wp-post-image"
+                         alt="aa" loading="eager"
+                         sizes="(max-width: 1300px) 100vw, 1300px" />
+                        </a>
+                    </div>
+                    <div itemprop="dateCreated"
+                     class="mkdf-post-info-date entry-date published updated">
+                        <a itemprop="url" href="../2018/05/index.html">
+                            @blog.Date.ToShortDateString()
+                        </a>
+                        <meta itemprop="interactionCount"
+                          content="UserComments: 0" />
+                    </div>
+                </div>
+                <div class="mkdf-post-text">
+                    <div class="mkdf-post-text-inner">
+                        <div class="mkdf-post-text-main">
+                            <h5 itemprop="name" class="entry-title mkdf-post-title">
+                                <a itemprop="url"
+                               title="@blog.Title">
+                                    @blog.Title
+                                </a>
+                            </h5>
+                            <div class="mkdf-post-excerpt-holder">
+                                @Html.Raw(blog.Description)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    }
+}

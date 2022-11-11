@@ -29,8 +29,6 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
             {
                 HomeMainSlider = await _appDbContext.HomeMainSlider.FirstOrDefaultAsync()
             };
-
-
             return View(model);
         }
 

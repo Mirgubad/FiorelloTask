@@ -1,10 +1,11 @@
 ﻿using FiorelloTaskFronToBack.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using NuGet.Protocol.Core.Types;
 
 namespace FiorelloTaskFronToBack.DAL
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<User>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
@@ -19,5 +20,6 @@ namespace FiorelloTaskFronToBack.DAL
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<BlogPhoto> BlogPhotos { get; set; }
         public DbSet<BlogText> BlogTexts { get; set; }
+        public DbSet<Testimonial> Testimonials { get; set; }
     }
 }

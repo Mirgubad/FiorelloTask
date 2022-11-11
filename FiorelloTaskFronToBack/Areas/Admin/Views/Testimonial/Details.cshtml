@@ -1,0 +1,31 @@
+﻿@using FiorelloTaskFronToBack.Areas.Admin.ViewModels.Testimonial;
+@model TestimonialDetailsViewModel;
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Testimonial Details </h4>     
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">TestimonialId</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Expert Id</th>
+                        <th scope="col">Photo</th>
+                        <th scope="col">FullName</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Id</td>
+                        <td>@Model.Title</td>
+                        <td>@Model.FlowerExpertId</td>
+                        <td><img class="img-thumbnail" style="width:100px;height:100px" src="~/assets/images/@Model.FlowerExpert.PhotoPath" /></td>
+                        <td>@Model.FlowerExpert.Name @Model.FlowerExpert.Surname</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="btn btn-light mt-2" asp-action="index" asp-controller="testimonial" asp-area="admin">Cancel</a>
+        </div>
+    </div>
+</div>

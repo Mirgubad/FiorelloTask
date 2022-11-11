@@ -1,0 +1,53 @@
+﻿@using FiorelloTaskFronToBack.ViewModels.Account;
+@model AccountRegisterViewModel
+
+<div class="mkdf-content">
+    <div class="mkdf-content-inner">
+        <div class="mkdf-container mkdf-default-page-template">
+            <div class="mkdf-container-inner clearfix">
+                <div class="mkdf-grid-row">
+                    <div class="mkdf-page-content-holder mkdf-grid-col-12">
+                        <div class="woocommerce">
+                            <div class="woocommerce-notices-wrapper"></div>
+                            <div class="row d-flex align-items-center justify-content-center">
+                                <h2 class="text-center">Sign Up</h2>
+                                <div class="col-5">
+                                    <div asp-validation-summary="ModelOnly"></div>
+                                    <form class="woocommerce-form woocommerce-form-login login form-group" method="post">
+                                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                            <label asp-for="Username"></label>
+                                            <input class="woocommerce-Input woocommerce-Input--text input-text" asp-for="Username" />
+                                            <span asp-validation-for="Username"></span>
+                                        </p>
+                                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                            <label asp-for="Email"></label>
+                                            <input class="woocommerce-Input woocommerce-Input--text input-text" asp-for="Email" />
+                                            <span asp-validation-for="Email"></span>
+                                        </p>
+                                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                            <label asp-for="Fullname"></label>
+                                            <input asp-for="Fullname" class="woocommerce-Input woocommerce-Input--text input-text" />
+                                            <span asp-validation-for="Fullname"></span>
+                                        </p>
+                                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                            <label asp-for="Password"></label>
+                                            <input class="woocommerce-Input woocommerce-Input--text input-text" asp-for="Password" />
+                                            <span asp-validation-for="Password"></span>
+                                        </p>
+                                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                            <label asp-for="ConfirmPassword"></label>
+                                            <input class="woocommerce-Input woocommerce-Input--text input-text" asp-for="ConfirmPassword" />
+                                            <span asp-validation-for="ConfirmPassword"></span>
+                                        </p>
+                                        <button type="submit">Sign up</button>
+                                        <p>Do you have an account? <a asp-action="login" asp-controller="account" class="text-info">Login </a></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5nXEPgP1CtQIxLKztmJN5U320HaZKEdcg0gWrGOIFlA=",
+  "Hash": "0/TNYjFVbh4IrH4bX4HI/Nwm/fHsfNNJNSS856i7usY=",
   "Source": "FiorelloTaskFronToBack",
   "BasePath": "_content/FiorelloTaskFronToBack",
   "Mode": "Default",
@@ -4401,6 +4401,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\8daca30a-1a7a-4efa-b12b-468e3ffe1d25_blog-img-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\8e0d3c4a-cee2-42cc-a731-7cea4fc114c4_testimonial-img-2.png",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/8e0d3c4a-cee2-42cc-a731-7cea4fc114c4_testimonial-img-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\8e0d3c4a-cee2-42cc-a731-7cea4fc114c4_testimonial-img-2.png"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\8ede8eff-d6a7-43cc-a881-266ef22a2288_h3-slider-background-2.jpg",

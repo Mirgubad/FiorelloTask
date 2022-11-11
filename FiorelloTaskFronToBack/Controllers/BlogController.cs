@@ -26,7 +26,7 @@ namespace FiorelloTaskFronToBack.Controllers
         public async Task<IActionResult> Details(int id)
         {
             var blogtext = await _appDbContext.BlogTexts.FirstOrDefaultAsync(b => b.BlogId == id);
-            var blog = await _appDbContext.Blogs.OrderByDescending(bl=>bl.Id).ToListAsync();
+            var blog = await _appDbContext.Blogs.OrderByDescending(bl=>bl.Date).ToListAsync();
             var blogMainPhoto= await _appDbContext.Blogs.FirstOrDefaultAsync(ph=>ph.Id == id);
             var blogPhotos = await _appDbContext.BlogPhotos.Where(a => a.BlogId == id).ToListAsync();
             if (blogtext == null) return NotFound();

@@ -1,8 +1,6 @@
 ﻿@using FiorelloTaskFronToBack.ViewModels.Blog;
 @model BlogDetailsViewModel;
 
-
-
 <div class="mkdf-container">
     <div class="mkdf-container-inner clearfix">
         <div class="mkdf-grid-row mkdf-content-has-sidebar mkdf-grid-huge-gutter">
@@ -12,9 +10,9 @@
                         <div class="mkdf-post-content">
                             <div class="mkdf-post-heading">
                                 <div class="mkdf-post-image">
-                                   
-                                        <img style="width:900px;height:630px" width="1300" height="830" src="/assets/images/@Model.MainPhotoPath" class="attachment-full size-full wp-post-image" alt="a" loading="eager">
-                                   
+
+                                    <img style="width:900px;height:630px;object-fit:cover" width="1300" height="830" src="/assets/images/@Model.MainPhotoPath" class="attachment-full size-full wp-post-image img-thumbnail" alt="a" loading="eager">
+
                                 </div>
                             </div>
                             <div class="mkdf-post-text">
@@ -76,13 +74,11 @@
                                                                         {
                                                                             <div class="mkdf-ig-image mkdf-item-space mkdf-image-gallery-masonry-fixed mkdf-default-masonry-item" style="position: absolute; left: 0%; top: 0px; height: 311.663px;">
                                                                                 <div class="mkdf-ig-image-inner">
-                                                                                    <img style="width:290px;height:300px" src="~/assets/images/@blogPhoto.PhotoPath" class="attachment-fiorello_mikado_square size-fiorello_mikado_square" alt="a" loading="eager">
+                                                                                    <img style="width:290px;height:280px;object-fit:cover" src="~/assets/images/@blogPhoto.PhotoPath" class="img-thumbnail" alt="a" loading="eager">
                                                                                 </div>
                                                                             </div>
                                                                         }
                                                                     }
-
-
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -119,11 +115,11 @@
                                         <div class="mkdf-post-info-bottom-left">
                                             <div itemprop="dateCreated" class="mkdf-post-info-date entry-date published updated">
                                                 <a itemprop="url" href="https://fiorello.qodeinteractive.com/2018/04/">
-                                               @foreach (var date in Model.Blog)
-                                               {
-                                                   if(date.Id==Model.Blogtext.BlogId)
-                                                   @date.Date.ToShortDateString()
-                                               }
+                                                    @foreach (var date in Model.Blog)
+                                                    {
+                                                        if (date.Id == Model.Blogtext.BlogId)
+                                                            @date.Date.ToShortDateString()
+                                                    }
                                                 </a>
                                                 <meta itemprop="interactionCount" content="UserComments: 2">
                                             </div> <div class="mkdf-post-info-author">
