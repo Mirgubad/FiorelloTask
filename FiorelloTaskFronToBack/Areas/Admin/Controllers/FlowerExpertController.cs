@@ -3,12 +3,14 @@ using FiorelloTaskFronToBack.DAL;
 using FiorelloTaskFronToBack.Helpers;
 using FiorelloTaskFronToBack.Migrations;
 using FiorelloTaskFronToBack.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class FlowerExpertController : Controller
     {
         private readonly AppDbContext _appDbContext;

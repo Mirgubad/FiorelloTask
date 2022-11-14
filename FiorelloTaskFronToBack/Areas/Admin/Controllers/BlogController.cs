@@ -2,12 +2,14 @@
 using FiorelloTaskFronToBack.DAL;
 using FiorelloTaskFronToBack.Helpers;
 using FiorelloTaskFronToBack.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class BlogController : Controller
     {
         private readonly AppDbContext _appDbContext;

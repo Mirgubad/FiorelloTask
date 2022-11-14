@@ -265,3 +265,4 @@ C:\Users\MD\source\repos\FiorelloTaskFronToBack\FiorelloTaskFronToBack\bin\Debug
 C:\Users\MD\source\repos\FiorelloTaskFronToBack\FiorelloTaskFronToBack\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\MD\source\repos\FiorelloTaskFronToBack\FiorelloTaskFronToBack\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\MD\source\repos\FiorelloTaskFronToBack\FiorelloTaskFronToBack\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\MD\source\repos\FiorelloTaskFronToBack\FiorelloTaskFronToBack\bin\Debug\net6.0\ZendeskApi_v2.dll

@@ -11,8 +11,7 @@
                             <div class="woocommerce-notices-wrapper"></div>
                             <div class="row d-flex align-items-center justify-content-center">
                                 <h2 class="text-center">Sign Up</h2>
-                                <div class="col-5">
-                                    <div asp-validation-summary="ModelOnly"></div>
+                                <div class="col-5">                               
                                     <form class="woocommerce-form woocommerce-form-login login form-group" method="post">
                                         <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
                                             <label asp-for="Username"></label>
@@ -39,6 +38,7 @@
                                             <input class="woocommerce-Input woocommerce-Input--text input-text" asp-for="ConfirmPassword" />
                                             <span asp-validation-for="ConfirmPassword"></span>
                                         </p>
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                         <button type="submit">Sign up</button>
                                         <p>Do you have an account? <a asp-action="login" asp-controller="account" class="text-info">Login </a></p>
                                     </form>

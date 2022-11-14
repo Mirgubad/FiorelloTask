@@ -1,5 +1,10 @@
 ﻿@using FiorelloTaskFronToBack.ViewModels.Account;
-@model AccountLogin
+@model AccountLoginViewModel
+
+@{
+
+    var returnUrl = Context.Request.Query["returnUrl"];
+}
 
 <div class="mkdf-content">
     <div class="mkdf-content-inner">
@@ -13,6 +18,7 @@
                                 <h2 class="text-center">Login</h2>
                                 <div class="col-5">
                                     <form class="woocommerce-form woocommerce-form-login login form-group" method="post">
+                                        <input type="hidden" asp-for="ReturnUrl" value="@returnUrl" />
                                         <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
                                             <label asp-for="Username"></label>
                                             <input class="woocommerce-Input woocommerce-Input--text input-text" asp-for="Username" />
@@ -23,7 +29,7 @@
                                             <input asp-for="Password" class="woocommerce-Input woocommerce-Input--text input-text" />
                                             <span class="text-danger" asp-validation-for="Password"></span>
                                         </p>
-                                        <div asp-validation-summary="ModelOnly"></div>
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                         <button type="submit">Login</button>
                                         <p>Don't you have an account? <a asp-action="register" asp-controller="account" class="text-info">Sign up </a></p>
                                     </form>

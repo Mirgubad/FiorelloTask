@@ -2,6 +2,7 @@
 using FiorelloTaskFronToBack.DAL;
 using FiorelloTaskFronToBack.Helpers;
 using FiorelloTaskFronToBack.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
@@ -9,6 +10,7 @@ using System.ComponentModel.DataAnnotations;
 namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class HomeMainSliderController : Controller
     {
         private readonly AppDbContext _appDbContext;

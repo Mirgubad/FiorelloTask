@@ -2,6 +2,7 @@
 using FiorelloTaskFronToBack.DAL;
 using FiorelloTaskFronToBack.Migrations;
 using FiorelloTaskFronToBack.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Immutable;
@@ -9,6 +10,7 @@ using System.Collections.Immutable;
 namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class FaqPageController : Controller
     {
         private readonly AppDbContext _appDbContext;

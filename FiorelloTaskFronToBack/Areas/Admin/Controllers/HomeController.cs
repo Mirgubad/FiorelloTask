@@ -1,10 +1,12 @@
 ﻿using FiorelloTaskFronToBack.DAL;
 using FiorelloTaskFronToBack.Helpers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class HomeController : Controller
     {
         private readonly AppDbContext _appDbContext;

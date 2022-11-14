@@ -36,21 +36,7 @@
                                                     <div class="mkdf-section-title-holder   mkdf-st-subtitle-pos-under">
                                                         <div class="mkdf-st-inner">
                                                             <h3 class="mkdf-st-title">
-
-                                                                @{
-                                                                    if (@faqComponent.Order < 10)
-                                                                    {
-                                                                        var s = "0" + @faqComponent.Order.ToString();
-                                                                        <span class="mkdf-st-title-highlight">@s. </span>
-                                                                    }
-                                                                    else
-                                                                    {
-                                                                        <span class="mkdf-st-title-highlight">@faqComponent.Order. </span>
-                                                                        ;
-                                                                    }
-
-                                                                }
-
+                                                                <span class="mkdf-st-title-highlight">@faqComponent.Order.ToString("D2"). </span>
                                                                 @faqComponent.Title
                                                             </h3>
                                                             @Html.Raw(faqComponent.Description)
@@ -63,8 +49,6 @@
                                     </div>
                                 }
                             }
-
-
                         </section>
                     </div>
                     <div class="mkdf-sidebar-holder mkdf-grid-col-3 mkdf-grid-col-pull-9">

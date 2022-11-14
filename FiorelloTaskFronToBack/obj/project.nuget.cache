@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "03dapQU6P4K4kgy6e8BhjxoE6yeWRiY/BdsJyuEDbnqQAMEaDq/HakcH3LKdJ+RY8rYjktMoxE9yzHK1mlTuUA==",
+  "dgSpecHash": "k1xAh3j68Ja9CCAlVjCGBeY4EnWVv/Wtf43Ibaw3yrMSOfQIVVD12rK+NdxZZlgZJP0Fd2CfV6KkuJ0+jjW+cg==",
   "success": true,
   "projectFilePath": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack.csproj",
   "expectedPackageFiles": [
@@ -178,7 +178,8 @@
     "C:\\Users\\MD\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\MD\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\MD\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\MD\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\MD\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\MD\\.nuget\\packages\\zendeskapi_v2\\3.12.0\\zendeskapi_v2.3.12.0.nupkg.sha512"
   ],
   "logs": []
 }

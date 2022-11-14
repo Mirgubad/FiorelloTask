@@ -3546,6 +3546,18 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "ZendeskApi_v2/3.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/ZendeskApi_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/ZendeskApi_v2.dll": {}
+        }
       }
     }
   },
@@ -10012,6 +10024,20 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "ZendeskApi_v2/3.12.0": {
+      "sha512": "h1pAmPhchjc3WmU+7TAGc2CjCDX9pNfmuve4ElbQoRtdj1Q3bs0eKN6hdjmzUcfC3uFg5Yb4cHvX7IJv6isQPw==",
+      "type": "package",
+      "path": "zendeskapi_v2/3.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/ZendeskApi_v2.dll",
+        "lib/netstandard2.1/ZendeskApi_v2.dll",
+        "lotus.png",
+        "zendeskapi_v2.3.12.0.nupkg.sha512",
+        "zendeskapi_v2.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -10020,7 +10046,8 @@
       "Microsoft.EntityFrameworkCore >= 6.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
+      "ZendeskApi_v2 >= 3.12.0"
     ]
   },
   "packageFolders": {
@@ -10083,6 +10110,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.10, )"
+          },
+          "ZendeskApi_v2": {
+            "target": "Package",
+            "version": "[3.12.0, )"
           }
         },
         "imports": [
