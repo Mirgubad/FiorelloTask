@@ -35,8 +35,6 @@ jQuery(document).ready(function ($) {
     })
 
 
-
-
     $(document).on("click", '.quantity-control-less', function () {
         var id = $(this).data('id')
         var value = $(`#input-${id}`).val();
