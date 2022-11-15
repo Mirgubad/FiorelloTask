@@ -80,14 +80,13 @@
                                                                        href="../../product/schefflera/index.html">@product.Title.ToUpper()</a>
                                                                     </h6>
                                                                     <div class="mkdf-pli-add-to-cart mkdf-default-skin">
-                                                                        <a rel="nofollow"
-                                                                       href="indexcb0b.html?add-to-cart=246"
-                                                                       data-quantity="1" data-product_id="246"
-                                                                       data-product_sku="563654"
-                                                                       class="button add_to_cart_button ajax_add_to_cart mkdf-button">
+                                                                        <button rel="nofollow"                                                                      
+                                                                        id="addToCard"
+                                                                        data-id="@product.Id"
+                                                                        class="mkdf-button">
                                                                             Add
                                                                             to cart
-                                                                        </a>
+                                                                        </button>
                                                                     </div>
                                                                     <div class="mkdf-pli-price">
                                                                         <span class="woocommerce-Price-amount amount">
@@ -122,4 +121,5 @@
 
 @section Scripts{
     <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/Custom.js"></script>
  }

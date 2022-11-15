@@ -25,11 +25,16 @@ jQuery(document).ready(function ($) {
             },
             success: function (result) {
                 $('#products').append(result);
-               
+                console.log("salam")
                 skipRow++;
-                
+
             }
         })
     })
+
+
+   
+
+
 });
 

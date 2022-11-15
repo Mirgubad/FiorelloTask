@@ -1,0 +1,62 @@
+﻿@using FiorelloTaskFronToBack.ViewModels.Basket;
+@model List<BasketListitemViewModel>;
+
+<div class="mkdf-grid">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Photo</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">TotalPrice</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var basketProduct in Model)
+            {
+                <tr class="basket-product" id="@basketProduct.Id">
+                    <td><img style="width:100px" class="img-thumbnail" src="/assets/images/@basketProduct.Photoname" /></td>
+                    <td>@basketProduct.Title</td>
+                    <td>@basketProduct.Price</td>
+                    <td id="itemCount" class="d-flex justify-content-center align-items-center">
+                        <div class="inputQuantity">
+                            @if (basketProduct.Quantity <= 1)
+                            {
+                                <button disabled data-id="@basketProduct.Id" class="quantity-control-less" id="less-@basketProduct.Id">-</button>
+                            }
+                            else
+                            {
+                                <button data-id="@basketProduct.Id" class="quantity-control-less" id="less-@basketProduct.Id">-</button>
+                            }
+
+                            <input min="1" max="10" style="width:30px;" asp-for="@basketProduct.Quantity" id="input-@basketProduct.Id" class="border-0">
+                            @if (basketProduct.Quantity >= 10)
+                            {
+                                <button disabled data-id="@basketProduct.Id" id="more-@basketProduct.Id" class="quantity-control-more">+</button>
+                            }
+                            else
+                            {
+                                <button data-id="@basketProduct.Id" id="more-@basketProduct.Id" class="quantity-control-more">+</button>
+                            }
+                        </div>
+                    </td>
+                    <td>
+                        @{
+                            double totalprice = basketProduct.Price * basketProduct.Quantity;
+                            <p>@totalprice</p>
+                        }
+                    </td>
+                    <td>
+                        <button data-id="@basketProduct.Id" id="deleteButton" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@section Scripts{
+
+    <script src="~/assets/js/Custom.js"></script>
+}

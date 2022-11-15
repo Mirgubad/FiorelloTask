@@ -11,7 +11,7 @@ builder.Services.AddSingleton<IFileService, FileService>();
 var connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<AppDbContext>(server => server.UseSqlServer(connectionString));
 
-builder.Services.AddIdentity<User, IdentityRole>(options =>
+builder.Services.AddIdentity<User,IdentityRole>(options =>
 {
     options.Password.RequireNonAlphanumeric = true;
     options.Password.RequireDigit = true;

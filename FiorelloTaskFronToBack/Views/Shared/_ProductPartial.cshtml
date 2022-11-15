@@ -40,14 +40,13 @@
                    href="../../product/schefflera/index.html">@product.Title</a>
                 </h6>
                 <div class="mkdf-pli-add-to-cart mkdf-default-skin">
-                    <a rel="nofollow"
-                   href="indexcb0b.html?add-to-cart=246"
-                   data-quantity="1" data-product_id="246"
-                   data-product_sku="563654"
-                   class="button add_to_cart_button ajax_add_to_cart mkdf-button">
+                    <button               
+               
+                data-id="@product.Id" id="addToCard"
+                   class="button add_to_cart_button ajax_add_to_cart mkdf-button border-0">
                         Add
                         to cart
-                    </a>
+                    </button>
                 </div>
                 <div class="mkdf-pli-price">
                     <span class="woocommerce-Price-amount amount">
@@ -68,5 +67,10 @@
             myFunc();
         }))
     </script>
+}
+
+@section Scripts{
+
+    <script src="~/assets/js/Custom.js"></script>
 }
 

@@ -1,15 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,500&amp;display=swap');
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .rbt-toolbar {
         display: none;
     }
 }
 
-ul{
-    list-style-type:none;
+ul {
+    list-style-type: none;
 }
 
+.quantity-control {
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    text-align: center;
+    outline: none;
+}
+
+.inputQuantity {
+    border: 1.5px solid red;
+    border-radius: 15px;
+    width: fit-content;
+    display: flex;
+}
+
+.quantity-control-more, .quantity-control-less {
+    border: none;
+    font-size: 22px;
+    background: none;
+}
+
+   
+
+.quantity-control:focus {
+    color: red;
+}
+
+#addToCard {
+    border: 2px dashed transparent;
+    background: none;
+}
+
+    #addToCard:focus {
+        color: red;
+        border: 2px dashed;
+    }
 
 div.rbt-toolbar {
     font-family: 'Heebo', sans-serif !important;
@@ -19,23 +60,23 @@ div.rbt-toolbar {
     text-transform: none;
 }
 
-div.rbt-toolbar svg{
-    position: initial;
-}
+    div.rbt-toolbar svg {
+        position: initial;
+    }
 
-div.rbt-toolbar *{
-    font-family: 'Heebo', sans-serif !important;
-}
+    div.rbt-toolbar * {
+        font-family: 'Heebo', sans-serif !important;
+    }
 
-div.rbt-toolbar a{
-    display: block;
-    font-size: 0;
-    line-height: 0;
-}
+    div.rbt-toolbar a {
+        display: block;
+        font-size: 0;
+        line-height: 0;
+    }
 
-div.rbt-toolbar a img{
-    display: inline-block;
-}
+        div.rbt-toolbar a img {
+            display: inline-block;
+        }
 
 section.rbt-sidearea {
     width: 282px;
@@ -59,7 +100,6 @@ body.admin-bar section.rbt-sidearea {
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
     box-shadow: 0 0 9.8px 0.2px rgba(0, 0, 0, 0.14);
-
 }
 
 .rbt-theme-dropdown,
@@ -75,7 +115,7 @@ body.admin-bar section.rbt-sidearea {
 }
 
 .rbt-loaded .rbt-theme-dropdown,
-.rbt-loaded .rbt-purchase{
+.rbt-loaded .rbt-purchase {
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
@@ -117,19 +157,19 @@ body.admin-bar section.rbt-sidearea {
     background-color: #ef2853;
 }
 
-.rbt-theme-dropdown .rbt-icon svg {
-    transition: opacity .1s ease;
-}
+    .rbt-theme-dropdown .rbt-icon svg {
+        transition: opacity .1s ease;
+    }
 
 
-.rbt-theme-dropdown .rbt-icon svg:nth-child(2){
-    opacity:0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
+        .rbt-theme-dropdown .rbt-icon svg:nth-child(2) {
+            opacity: 0;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
 
 .rbt-active .rbt-theme-dropdown .rbt-icon svg:nth-child(1) {
     opacity: 0;
@@ -209,9 +249,9 @@ span.rbt-text-name {
     margin-right: -18px;
 }
 
-.rbt-list>a {
-    display: block;
-}
+    .rbt-list > a {
+        display: block;
+    }
 
 .rbt-list-new, .rbt-list-related {
     font-size: 12px;
@@ -234,32 +274,32 @@ span.rbt-text-name {
     margin: 0;
 }
 
-.rbt-img-hover{
+.rbt-img-hover {
     background-color: #fbf9f9;
     position: relative;
     display: inline-block;
     box-shadow: 0 0 10.28px 1.72px rgba(0,0,0,.03);
 }
 
-.rbt-img-hover:after{
-    content: '';
-    opacity: 0;
-    background-color: rgba(255, 255, 255, .15);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    -webkit-transition: opacity .2s ease-out;
-    -moz-transition: opacity .2s ease-out;
-    transition: opacity .2s ease-out;
-}
+    .rbt-img-hover:after {
+        content: '';
+        opacity: 0;
+        background-color: rgba(255, 255, 255, .15);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        -webkit-transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        transition: opacity .2s ease-out;
+    }
 
-.rbt-theme:hover .rbt-img-hover:after{
+.rbt-theme:hover .rbt-img-hover:after {
     opacity: 1;
 }
 
-.rbt-img-hover.rbt-lazy-load img{
+.rbt-img-hover.rbt-lazy-load img {
     opacity: 0;
 }
 
@@ -270,7 +310,7 @@ span.rbt-text-name {
     transition: opacity 0.5s ease;
 }
 
-.rbt-list-inner{
+.rbt-list-inner {
     max-width: 225px;
 }
 
@@ -288,7 +328,7 @@ span.rbt-text-name {
     letter-spacing: 0 !important;
 }
 
-.rbt-theme-tag{
+.rbt-theme-tag {
     vertical-align: middle;
     color: #a6a6a6;
     display: inline-block;
@@ -300,7 +340,7 @@ span.rbt-text-name {
     width: 80%;
 }
 
-.rbt-theme-price{
+.rbt-theme-price {
     vertical-align: middle;
     color: #000;
     display: inline-block;
@@ -322,20 +362,20 @@ span.rbt-text-name {
     box-sizing: border-box;
 }
 
-.rbt-logo .logo-svg-holder {
-    display: inline-block;
-    vertical-align: middle;
-}
+    .rbt-logo .logo-svg-holder {
+        display: inline-block;
+        vertical-align: middle;
+    }
 
-.rbt-logo .logo-text-holder {
-    vertical-align: middle;
-    display: inline-block;
-    color: #000;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0 0 0 10px;
-    letter-spacing: 0;
-}
+    .rbt-logo .logo-text-holder {
+        vertical-align: middle;
+        display: inline-block;
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 0 0 10px;
+        letter-spacing: 0;
+    }
 
 .rbt-list-bottom {
     height: 40px;
@@ -348,11 +388,11 @@ span.rbt-text-name {
     box-shadow: 0 0 7.28px 0.72px rgba(199, 199, 199, 0.2);
 }
 
-.rbt-list-bottom .rbt-link-holder {
-    font-size: 0;
-    line-height: 40px;
-    text-align: center;
-}
+    .rbt-list-bottom .rbt-link-holder {
+        font-size: 0;
+        line-height: 40px;
+        text-align: center;
+    }
 
 .rbt-link-holder .link-svg-holder {
     display: inline-block;
@@ -361,7 +401,7 @@ span.rbt-text-name {
     vertical-align: bottom;
 }
 
-.rbt-link-holder .link-text-holder{
+.rbt-link-holder .link-text-holder {
     display: inline-block;
     color: #fff;
     font-size: 9px;
