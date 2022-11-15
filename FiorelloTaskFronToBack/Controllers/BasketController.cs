@@ -17,6 +17,12 @@ namespace FiorelloTaskFronToBack.Controllers
         }
         public async Task<IActionResult> Index()
         {
+            List<BasketAddViewModel> basket;
+
+            basket = new List<BasketAddViewModel>();
+
+            if (basket == null) return View();
+
             var basketProducts = JsonConvert.DeserializeObject<List<BasketAddViewModel>>(Request.Cookies["basket"]);
 
             List<BasketListitemViewModel> model = new List<BasketListitemViewModel>();
@@ -35,7 +41,6 @@ namespace FiorelloTaskFronToBack.Controllers
                         Quantity = basketProduct.Count,
                         StockQuantity = dbproduct.Quantity,
                         Title = dbproduct.Title,
-
                     });
                 }
             }
@@ -47,6 +52,7 @@ namespace FiorelloTaskFronToBack.Controllers
         public async Task<IActionResult> Add(BasketAddViewModel model)
         {
             List<BasketAddViewModel> basket;
+
 
             if (Request.Cookies["basket"] != null)
             {
@@ -76,20 +82,20 @@ namespace FiorelloTaskFronToBack.Controllers
         [HttpPost]
         public async Task<IActionResult> Less(int id)
         {
-           var basket = JsonConvert.DeserializeObject<List<BasketAddViewModel>>(Request.Cookies["basket"]);
+            var basket = JsonConvert.DeserializeObject<List<BasketAddViewModel>>(Request.Cookies["basket"]);
 
-            var basketProduct = basket.Find(b => b.Id ==id);
+            var basketProduct = basket.Find(b => b.Id == id);
             if (basketProduct != null)
             {
                 basketProduct.Count--;
-               
+
             }
 
             var serializedBasket = JsonConvert.SerializeObject(basket);
             Response.Cookies.Append("basket", serializedBasket);
 
             return Ok();
-           
+
 
         }
 
@@ -106,6 +112,7 @@ namespace FiorelloTaskFronToBack.Controllers
             }
             var serializedBasket = JsonConvert.SerializeObject(basket);
             Response.Cookies.Append("basket", serializedBasket);
+
             return Ok();
 
         }

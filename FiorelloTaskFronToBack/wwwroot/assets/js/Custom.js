@@ -40,7 +40,7 @@ jQuery(document).ready(function ($) {
     $(document).on("click", '.quantity-control-less', function () {
         var id = $(this).data('id')
         var value = $(`#input-${id}`).val();
-
+       
         $.ajax({
             method: "POST",
             url: "/basket/less",
@@ -48,11 +48,10 @@ jQuery(document).ready(function ($) {
                 id: id
             },
             success: function (result) {
-                $(`#input-${id}`).val(value)
-                location.reload()
+               
+              
             }
         })
-
     })
 
     $(document).on("click", '.quantity-control-more', function () {
@@ -66,7 +65,7 @@ jQuery(document).ready(function ($) {
             },
             success: function (result) {
 
-                location.reload()
+               
             }
         })
     })

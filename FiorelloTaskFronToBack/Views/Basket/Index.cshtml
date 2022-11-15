@@ -2,59 +2,82 @@
 @model List<BasketListitemViewModel>;
 
 <div class="mkdf-grid">
-    <table class="table">
-        <thead class="thead-dark">
-            <tr>
-                <th scope="col">Photo</th>
-                <th scope="col">Name</th>
-                <th scope="col">Price</th>
-                <th scope="col">Quantity</th>
-                <th scope="col">TotalPrice</th>
-                <th scope="col">Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var basketProduct in Model)
-            {
-                <tr class="basket-product" id="@basketProduct.Id">
-                    <td><img style="width:100px" class="img-thumbnail" src="/assets/images/@basketProduct.Photoname" /></td>
-                    <td>@basketProduct.Title</td>
-                    <td>@basketProduct.Price</td>
-                    <td id="itemCount" class="d-flex justify-content-center align-items-center">
-                        <div class="inputQuantity">
-                            @if (basketProduct.Quantity <= 1)
-                            {
-                                <button disabled data-id="@basketProduct.Id" class="quantity-control-less" id="less-@basketProduct.Id">-</button>
-                            }
-                            else
-                            {
-                                <button data-id="@basketProduct.Id" class="quantity-control-less" id="less-@basketProduct.Id">-</button>
-                            }
+    <section class="h-100 h-custom" >
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12">
+                    <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                        <div class="card-body p-0">
+                            <div class="row g-0">
+                                <div class="col-lg-12">
+                                    <div class="p-5">
+                                        <div class="d-flex justify-content-between align-items-center mb-5">
+                                            <h1 class="fw-bold mb-0 text-black">Shopping Cart</h1>
+                                            <h6 class="mb-0 text-muted">@Model.Count items</h6>
+                                        </div>
+                                        <hr class="my-4">
+                                        @foreach (var basketProduct in Model)
+                                        {
+                                            <div class="row mb-4 d-flex justify-content-between align-items-center basket-product" id="@basketProduct.Id">
+                                                <div class="col-md-2 col-lg-2 col-xl-2">
+                                                    <img src="~/assets/images/@basketProduct.Photoname"
+                                                     class="img-fluid rounded-3" alt="Cotton T-shirt">
+                                                </div>
+                                                <div class="col-md-3 col-lg-3 col-xl-3">
+                                                    <h6 class="text-muted">
+                                                        @basketProduct.Title
+                                                    </h6>
+                                                    <h6 class="text-black mb-0">Cotton T-shirt</h6>
+                                                </div>
+                                                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                                    <button class="btn btn-link px-2 quantity-control-less "
+                                                        data-id="@basketProduct.Id" id="more-@basketProduct.Id"
+                                                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                        <i class="fas fa-minus"></i>
+                                                    </button>
 
-                            <input min="1" max="10" style="width:30px;" asp-for="@basketProduct.Quantity" id="input-@basketProduct.Id" class="border-0">
-                            @if (basketProduct.Quantity >= 10)
-                            {
-                                <button disabled data-id="@basketProduct.Id" id="more-@basketProduct.Id" class="quantity-control-more">+</button>
-                            }
-                            else
-                            {
-                                <button data-id="@basketProduct.Id" id="more-@basketProduct.Id" class="quantity-control-more">+</button>
-                            }
+                                                    <input asp-for="@basketProduct.Quantity" min="1" max="10"
+                                                       class="form-control form-control-sm" />
+
+                                                    <button class="btn btn-link px-2 quantity-control-more"
+                                                        data-id="@basketProduct.Id" id="more-@basketProduct.Id"
+                                                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                        <i class="fas fa-plus"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                                    <h6 class="mb-0">€ @basketProduct.Price</h6>
+                                                </div>
+                                                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                                    <button style="border:none" class="text-muted"><i class="fa fa-trash" id="deleteButton" data-id="@basketProduct.Id"></i></button>
+                                                </div>
+                                            </div>
+                                        }
+                                        <hr class="my-4">
+
+                                        <div class="pt-5">
+                                            <h6 class="mb-0">
+                                                <a asp-action="index" asp-controller="product" class="text-body">
+                                                    <i class="fas fa-long-arrow-alt-left me-2"></i>Back to shop
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                    </td>
-                    <td>
-                        @{
-                            double totalprice = basketProduct.Price * basketProduct.Quantity;
-                            <p>@totalprice</p>
-                        }
-                    </td>
-                    <td>
-                        <button data-id="@basketProduct.Id" id="deleteButton" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
 </div>
 @section Scripts{
 
