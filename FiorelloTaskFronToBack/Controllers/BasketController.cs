@@ -17,13 +17,19 @@ namespace FiorelloTaskFronToBack.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            List<BasketAddViewModel> basket;
+            List<BasketAddViewModel> basketProducts;
 
-            basket = new List<BasketAddViewModel>();
+            if (Request.Cookies["basket"] != null)
+            {
+                basketProducts = JsonConvert.DeserializeObject<List<BasketAddViewModel>>(Request.Cookies["basket"]);
+            }
+            else
+            {
+                basketProducts = new List<BasketAddViewModel>();
+            }
 
-            if (basket == null) return View();
 
-            var basketProducts = JsonConvert.DeserializeObject<List<BasketAddViewModel>>(Request.Cookies["basket"]);
+          
 
             List<BasketListitemViewModel> model = new List<BasketListitemViewModel>();
 
