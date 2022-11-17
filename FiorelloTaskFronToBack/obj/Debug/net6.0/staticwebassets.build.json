@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IZgBT/DgrpDRqfNX9VXkQQh+tTDEZ6HVK4pwkvkcmMs=",
+  "Hash": "pPCXXePv8u5Ii4MhYy6XOALYDyKtvFVK+G1XbW+Sv1w=",
   "Source": "FiorelloTaskFronToBack",
   "BasePath": "_content/FiorelloTaskFronToBack",
   "Mode": "Default",
@@ -1581,6 +1581,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\00c3b1b8-7572-4a9a-8920-de23df13df8a_shop-9-gallery-3-300x400.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\02503f6b-bb8c-4d0a-94ce-b49de13dc7fb_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/02503f6b-bb8c-4d0a-94ce-b49de13dc7fb_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\02503f6b-bb8c-4d0a-94ce-b49de13dc7fb_blog-feature-img-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\0308b988-bd60-4cb6-abd5-536cfcc159bd_shop-12-gallery-2-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -1596,6 +1613,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\0308b988-bd60-4cb6-abd5-536cfcc159bd_shop-12-gallery-2-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\030d6a32-9bea-489b-81d4-90c45c3e68be_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/030d6a32-9bea-489b-81d4-90c45c3e68be_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\030d6a32-9bea-489b-81d4-90c45c3e68be_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\04fb1bd7-31e3-4917-af9a-f43deb92f80c_blog-img-2.jpg",
@@ -1647,6 +1681,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\0628890b-6831-443a-83bd-1f5b41cfbc61_h6-img-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\062fe84d-4643-4f5f-b63d-100f80c88512_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/062fe84d-4643-4f5f-b63d-100f80c88512_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\062fe84d-4643-4f5f-b63d-100f80c88512_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\06920450-9919-46fa-8024-7a67eec6d88c_shop-7-gallery-2.jpg",
@@ -1768,6 +1819,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\0ce23f93-ca6f-4e8a-bce4-03ab5c519ac9_shop-3-img-300x400.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\0ea06a92-b542-4c33-abb3-76cb3d88fffa_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/0ea06a92-b542-4c33-abb3-76cb3d88fffa_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\0ea06a92-b542-4c33-abb3-76cb3d88fffa_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\0f95b4ca-d38a-4014-8f6e-5d11af826251_shop-7-gallery-1-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -1800,6 +1868,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\10877413-d5c6-4dc0-bb9e-530b29cf2833_shop-3-img-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\11362b41-b729-490b-81ce-2cc332c9b8a4_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/11362b41-b729-490b-81ce-2cc332c9b8a4_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\11362b41-b729-490b-81ce-2cc332c9b8a4_blog-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\127d383a-53a7-46fc-a153-a62144e44869_blog-img-1-650x650.jpg",
@@ -1938,6 +2023,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\1c649c5b-5758-49cd-a64d-cf676aac74e8_shop-7-img.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\1cc3c49d-2cbc-48b9-b2b0-3f8c60e30d90_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/1cc3c49d-2cbc-48b9-b2b0-3f8c60e30d90_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\1cc3c49d-2cbc-48b9-b2b0-3f8c60e30d90_blog-feature-img-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\1d2b8fdb-4aea-43bb-88d5-656906d41e8f_shop-12-gallery-4-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -2023,6 +2125,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\1f030904-82dd-430f-9b5c-0a9c84c8a8ba_blog-author-img.png"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\20deaaf6-6d3b-49b8-b864-4ef18e6e5c7c_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/20deaaf6-6d3b-49b8-b864-4ef18e6e5c7c_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\20deaaf6-6d3b-49b8-b864-4ef18e6e5c7c_blog-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\215acce9-a0c0-40d6-bb1a-44f32dcc40b5_IMG_6595.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -2089,6 +2208,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\24180379-ac0a-4cac-8ba1-f0e972e7b069_shop-8-gallery-4-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\242c451d-ff9d-45f4-82be-b5f7623dd917_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/242c451d-ff9d-45f4-82be-b5f7623dd917_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\242c451d-ff9d-45f4-82be-b5f7623dd917_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\24747696-10cb-4b70-acbf-c76311a54ed8_blog-img-3-650x650.jpg",
@@ -2193,6 +2329,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\2990aacb-626c-4e19-8736-777bdb6a547a_shop-9-img.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\2a63fe66-bcae-4259-b7ef-606b4ab15caa_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/2a63fe66-bcae-4259-b7ef-606b4ab15caa_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\2a63fe66-bcae-4259-b7ef-606b4ab15caa_blog-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\2ab0f0e2-d7d9-45e5-bd73-07b99bf5a0aa_shop-11-gallery-4-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -2293,6 +2446,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\3035cfbe-11da-4a63-bed8-c42d5726bb08_shop-7-gallery-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\30822f28-8766-4557-9367-15bb36ac4bd9_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/30822f28-8766-4557-9367-15bb36ac4bd9_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\30822f28-8766-4557-9367-15bb36ac4bd9_blog-feature-img-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\31d98c32-833f-411a-9e6d-7c6de9d3c131_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/31d98c32-833f-411a-9e6d-7c6de9d3c131_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\31d98c32-833f-411a-9e6d-7c6de9d3c131_blog-feature-img-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\331dba9d-904c-4eac-8e8f-4a94491bb440_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/331dba9d-904c-4eac-8e8f-4a94491bb440_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\331dba9d-904c-4eac-8e8f-4a94491bb440_blog-feature-img-2.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\3418eb55-cfb2-4284-a6eb-e5ecd3cab21a_blog-img-1.jpg",
@@ -2516,6 +2720,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\3d640f5f-94de-44e8-9f9e-fb711face6a0_shop-3-img-300x400.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\4083bc90-f133-406e-8d08-cf26f61ec561_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/4083bc90-f133-406e-8d08-cf26f61ec561_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\4083bc90-f133-406e-8d08-cf26f61ec561_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\40fb71bb-1720-477d-bea0-64058dce33cd_blog-img-2.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -2599,6 +2820,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\41fe2fb1-8eca-44a7-b408-8e0676fa072c_blog-feature-img-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\4267ec3d-6e7e-499c-bed3-c3be142646f1_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/4267ec3d-6e7e-499c-bed3-c3be142646f1_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\4267ec3d-6e7e-499c-bed3-c3be142646f1_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\43728b1c-2b9b-4c9c-9bfb-6f816e0b7216_h3-team-img-4.png",
@@ -2788,6 +3026,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\48bebcc4-5f3b-47fc-9c66-8758d7487ab5_channels4_profile.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\49d6cc93-5f23-42ea-8585-046c98b5f76e_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/49d6cc93-5f23-42ea-8585-046c98b5f76e_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\49d6cc93-5f23-42ea-8585-046c98b5f76e_blog-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\49fb0e05-4da4-43fa-b03c-dc5608ec74f0_shop-12-gallery-1-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -2873,6 +3128,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\4d001b26-7d89-4ec7-ac9f-94fe7f9641df_shop-8-gallery-2.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\4d4d0f81-73d1-4d45-8bee-ebf3771f4647_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/4d4d0f81-73d1-4d45-8bee-ebf3771f4647_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\4d4d0f81-73d1-4d45-8bee-ebf3771f4647_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\4f5e3774-0026-4c83-9578-3b36fc2b85e7_shop-7-img-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -2888,6 +3160,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\4f5e3774-0026-4c83-9578-3b36fc2b85e7_shop-7-img-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\50305139-f16e-4506-9af4-4905cadcc5e0_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/50305139-f16e-4506-9af4-4905cadcc5e0_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\50305139-f16e-4506-9af4-4905cadcc5e0_blog-feature-img-2.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\5086c7ed-1887-472e-93e1-10573a1147a9_shop-12-gallery-3-300x400.jpg",
@@ -2939,6 +3228,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\52cd6ca9-e913-45d3-84cd-35f8f2396425_shop-11-gallery-1-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\52ce5a98-c66b-4eae-98b9-0e442b7a86ea_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/52ce5a98-c66b-4eae-98b9-0e442b7a86ea_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\52ce5a98-c66b-4eae-98b9-0e442b7a86ea_blog-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\5480e0eb-ce33-4bb7-ad08-a986c42400f2_shop-3-img.jpg",
@@ -3077,6 +3383,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\5a854fd5-033e-45d0-aa7e-0e2b535cfbeb_shop-3-img-300x400.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\5a8b3860-6e85-451f-98c6-120767796119_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/5a8b3860-6e85-451f-98c6-120767796119_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\5a8b3860-6e85-451f-98c6-120767796119_blog-feature-img-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\5ac7c041-4f61-4354-8523-031b802200cf_shop-12-img.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -3109,6 +3432,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\5aef2c6b-e97d-448d-9e18-c838236dae9b_blog-feature-img-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\5b5a7a87-208b-4916-a8fc-f5a5962a3b57_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/5b5a7a87-208b-4916-a8fc-f5a5962a3b57_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\5b5a7a87-208b-4916-a8fc-f5a5962a3b57_blog-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\5bc1f861-0e2a-4c9f-9384-f6e5a42c0cc9_shop-12-gallery-4-300x400.jpg",
@@ -3381,6 +3721,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\6597ac39-5634-4a07-8366-8b4c0d41289a_shop-12-gallery-3-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\6644b192-4dd9-45da-836a-805c483881c6_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/6644b192-4dd9-45da-836a-805c483881c6_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\6644b192-4dd9-45da-836a-805c483881c6_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\6670d001-8e8b-4b1a-8ccf-5e82c2e813aa_shop-12-gallery-2-300x400.jpg",
@@ -3706,6 +4063,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\74f5430a-6383-4824-a8e9-2d023eb7cdf2_shop-8-gallery-2.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\75010c97-8cc0-4406-b87f-a0d245480df7_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/75010c97-8cc0-4406-b87f-a0d245480df7_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\75010c97-8cc0-4406-b87f-a0d245480df7_blog-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\75bfcd3d-7ce3-44b0-942b-4b4e1fc9e98d_blog-img-3.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -3808,6 +4182,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\77e7eafa-56eb-486a-b944-851140525087_IMG_6595.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\78229cd7-9922-451f-b736-e9d7d6ff6727_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/78229cd7-9922-451f-b736-e9d7d6ff6727_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\78229cd7-9922-451f-b736-e9d7d6ff6727_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\7a076d2d-3334-4c0b-bd64-5ec210c89a5a_1F8F053F-56C5-4C73-BB82-D3A19B7CBB2F.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -3876,6 +4267,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\7a50825b-f8b7-4a37-99ca-5a5654fc956a_shop-7-gallery-2-300x400.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\7a7955fd-f725-4ba4-8285-16e34f298030_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/7a7955fd-f725-4ba4-8285-16e34f298030_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\7a7955fd-f725-4ba4-8285-16e34f298030_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\7b808f64-b0b1-42c3-adad-1478eca0f74a_shop-3-img-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -3908,6 +4316,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\7d86ffd5-f65c-4ea9-ad46-711c4be46fb7_shop-3-img-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\7dfbed72-f9b0-48cb-8a91-b7bc90bdcbfa_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/7dfbed72-f9b0-48cb-8a91-b7bc90bdcbfa_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\7dfbed72-f9b0-48cb-8a91-b7bc90bdcbfa_blog-feature-img-2.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\7e5014cf-4683-4830-a7f0-eb78bd8849de_h3-team-img-3.png",
@@ -4012,6 +4437,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\828d1e09-9c2e-41c9-b1a2-582c675b8aac_blog-feature-img-1.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\83633cc3-ac3f-498a-9fcf-bb700cd071b0_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/83633cc3-ac3f-498a-9fcf-bb700cd071b0_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\83633cc3-ac3f-498a-9fcf-bb700cd071b0_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\83d1dfc2-2561-4b9c-b207-360a0ee68798_blog-subscriber-img-2.png",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -4027,6 +4469,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\83d1dfc2-2561-4b9c-b207-360a0ee68798_blog-subscriber-img-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\83fdef91-ffd2-42f7-840b-295724db6be0_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/83fdef91-ffd2-42f7-840b-295724db6be0_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\83fdef91-ffd2-42f7-840b-295724db6be0_blog-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\842c0bf9-4a76-4077-86df-c9559f8b3319_shop-9-img.jpg",
@@ -4165,6 +4624,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\871ef90d-f2da-4b26-a64d-8964cbc9b6c4_blog-img-1.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\8733f2c1-8969-41e3-b770-277f20672ad7_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/8733f2c1-8969-41e3-b770-277f20672ad7_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\8733f2c1-8969-41e3-b770-277f20672ad7_blog-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\874e6328-28a5-4a26-8769-3a8f60f3b9fd_blog-img-4.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -4250,6 +4726,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\88d2edea-0525-4d16-87ef-39f8e77e079f_shop-8-gallery-2-300x400.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\8902bc1b-6188-4d67-9fc0-03deeef8fa91_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/8902bc1b-6188-4d67-9fc0-03deeef8fa91_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\8902bc1b-6188-4d67-9fc0-03deeef8fa91_blog-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\896f4a8d-f317-4ad5-9cbf-6ae6b2612e0e_shop-11-img-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -4282,6 +4775,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\8a0d005c-981c-48b7-863d-1b743e5220cd_shop-8-gallery-3-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\8ab33775-1e68-4ae6-9a8a-0237c10c40b6_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/8ab33775-1e68-4ae6-9a8a-0237c10c40b6_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\8ab33775-1e68-4ae6-9a8a-0237c10c40b6_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\8c0f4c13-4ed8-4cfa-b654-bd4d745e0e81_shop-14-img.jpg",
@@ -4420,6 +4930,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\90c0e0bd-eaa6-47b0-85f6-cbed261c02d6_user-img-1-100x100.png"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\93d4192f-7acb-426e-ade6-eb42a6c09f1b_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/93d4192f-7acb-426e-ade6-eb42a6c09f1b_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\93d4192f-7acb-426e-ade6-eb42a6c09f1b_blog-feature-img-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\93df8f47-88e4-4243-aa28-2989bc8fcad1_blog-feature-img-2.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -4454,6 +4981,40 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\93f7678d-4c9a-4b7b-a758-855b3b91dd93_shop-12-gallery-1-300x400.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\9448e784-c4dd-48b8-a54b-6bd65f957a8c_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/9448e784-c4dd-48b8-a54b-6bd65f957a8c_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\9448e784-c4dd-48b8-a54b-6bd65f957a8c_blog-feature-img-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\945a387c-fffe-42c7-a4a1-288b13168528_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/945a387c-fffe-42c7-a4a1-288b13168528_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\945a387c-fffe-42c7-a4a1-288b13168528_blog-feature-img-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\9482ed5f-dd1d-4a86-8888-9e3a084e64b1_blog-img-3-650x650.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -4469,6 +5030,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\9482ed5f-dd1d-4a86-8888-9e3a084e64b1_blog-img-3-650x650.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\9533ccff-b32e-4ceb-a448-19ed8d38cfbf_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/9533ccff-b32e-4ceb-a448-19ed8d38cfbf_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\9533ccff-b32e-4ceb-a448-19ed8d38cfbf_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\9655caf3-303b-465b-a2c6-ca5e9fe04397_blog-feature-img-1.jpg",
@@ -4624,6 +5202,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\9ae93b49-e374-4bac-97d1-1b2bf7512d30_blog-img-2.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\9b1e0fc0-0338-4f4c-9c40-a352057bca33_blog-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/9b1e0fc0-0338-4f4c-9c40-a352057bca33_blog-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\9b1e0fc0-0338-4f4c-9c40-a352057bca33_blog-img-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\9bc21d82-3b6c-4538-873a-7bcd32d28c11_shop-3-gallery-3.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -4639,6 +5234,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\9bc21d82-3b6c-4538-873a-7bcd32d28c11_shop-3-gallery-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\9c00d940-c810-4879-a87a-539838ecde49_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/9c00d940-c810-4879-a87a-539838ecde49_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\9c00d940-c810-4879-a87a-539838ecde49_blog-feature-img-2.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\9cc0aa56-184a-4daf-8699-bfcc80222825_shop-9-gallery-2-300x400.jpg",
@@ -4692,6 +5304,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\9dbcb4e2-f0f3-41fb-8a6c-b817e12ba700_blog-img-2-650x650.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\9e0ec075-8dd4-458f-ab20-8d28db65136d_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/9e0ec075-8dd4-458f-ab20-8d28db65136d_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\9e0ec075-8dd4-458f-ab20-8d28db65136d_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\9e995961-a851-4145-8a2f-5f44de2ab426_blog-img-1-650x650.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -4709,6 +5338,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\9e995961-a851-4145-8a2f-5f44de2ab426_blog-img-1-650x650.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\a2ea824e-f395-4326-8391-b7fc709427c9_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/a2ea824e-f395-4326-8391-b7fc709427c9_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\a2ea824e-f395-4326-8391-b7fc709427c9_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\a329415f-f114-4b78-9c18-6c00014e7805_shop-3-img-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -4724,6 +5370,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\a329415f-f114-4b78-9c18-6c00014e7805_shop-3-img-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\a353599f-e05a-4fdb-9e9e-87bad844dd73_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/a353599f-e05a-4fdb-9e9e-87bad844dd73_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\a353599f-e05a-4fdb-9e9e-87bad844dd73_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\a3f359ff-f9ab-4386-8ccd-3fe0e08cd851_1F8F053F-56C5-4C73-BB82-D3A19B7CBB2F.jpg",
@@ -4811,6 +5474,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\a71ba4d1-ee27-4834-9567-2879396bbdb0_blog-img-3.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\a81b8ef1-a4c4-4ec8-b1d2-47e00a1c3f27_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/a81b8ef1-a4c4-4ec8-b1d2-47e00a1c3f27_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\a81b8ef1-a4c4-4ec8-b1d2-47e00a1c3f27_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\aa0ae292-29fa-4ede-b3c8-a0d2f17462c2_blog-feature-img-6.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -4879,6 +5559,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\aade7d61-e033-4200-af34-47dbb316dbf4_blog-author-img.png"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\ab74d74e-11c2-4959-8c3e-8e9f49acc249_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/ab74d74e-11c2-4959-8c3e-8e9f49acc249_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\ab74d74e-11c2-4959-8c3e-8e9f49acc249_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\ada3feda-c8b8-413e-a29f-0a08d7acb230_shop-11-gallery-3-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -4894,6 +5591,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\ada3feda-c8b8-413e-a29f-0a08d7acb230_shop-11-gallery-3-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\adfebad3-0433-4b50-bf87-d2239daa56e7_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/adfebad3-0433-4b50-bf87-d2239daa56e7_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\adfebad3-0433-4b50-bf87-d2239daa56e7_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\afce1d49-8a73-4433-9a35-f83740f306ce_blog-img-1-650x650.jpg",
@@ -4979,6 +5693,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\b201d7bd-aff0-44db-8d0e-bffab1214e9c_shop-3-img-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\b2884ed6-bca7-46dd-ae93-df58bc3e91d4_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/b2884ed6-bca7-46dd-ae93-df58bc3e91d4_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\b2884ed6-bca7-46dd-ae93-df58bc3e91d4_blog-feature-img-2.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\b34dc6cc-16e8-48dc-994b-363b78d01cff_shop-7-img.jpg",
@@ -5132,6 +5863,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\bcc2f8ba-0b2c-4d43-83bc-ab983f7132db_shop-14-gallery-2-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\bd32ede9-37e8-4fbd-a7a0-107252d1c5e7_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/bd32ede9-37e8-4fbd-a7a0-107252d1c5e7_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\bd32ede9-37e8-4fbd-a7a0-107252d1c5e7_blog-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\bdea106d-656e-40fa-953e-a39105129168_blog-feature-img-7.jpg",
@@ -5304,6 +6052,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\c52993b7-34e1-45e3-b315-608d28e41322_shop-12-gallery-4-300x400.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\c65c4a0a-0867-4ebd-93ac-137fdc3baa25_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/c65c4a0a-0867-4ebd-93ac-137fdc3baa25_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\c65c4a0a-0867-4ebd-93ac-137fdc3baa25_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\c6ffe940-88c7-4b69-827a-e363af8bb778_IMG_6595.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -5321,6 +6086,40 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\c6ffe940-88c7-4b69-827a-e363af8bb778_IMG_6595.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\c70f156c-5b3b-42a2-b3d6-47c796915051_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/c70f156c-5b3b-42a2-b3d6-47c796915051_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\c70f156c-5b3b-42a2-b3d6-47c796915051_blog-feature-img-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\c7cffc92-dd87-4506-81dc-85e9a18bcea5_blog-img-2-650x650.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/c7cffc92-dd87-4506-81dc-85e9a18bcea5_blog-img-2-650x650.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\c7cffc92-dd87-4506-81dc-85e9a18bcea5_blog-img-2-650x650.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\c7ef9597-34bd-4e7e-abbb-af9a4b996fbe_channels4_profile.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -5336,6 +6135,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\c7ef9597-34bd-4e7e-abbb-af9a4b996fbe_channels4_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\c87add7b-d5fa-42a4-b353-409950690406_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/c87add7b-d5fa-42a4-b353-409950690406_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\c87add7b-d5fa-42a4-b353-409950690406_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\c9c0f03d-27c1-4805-a974-581125d32545_shop-3-img-300x400.jpg",
@@ -5489,6 +6305,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\cd6cb053-a236-41ae-9ac7-8d05abec7b3c_shop-12-img.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\ce3f1cf7-a5b2-4e1a-88b8-ef7f4da25496_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/ce3f1cf7-a5b2-4e1a-88b8-ef7f4da25496_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\ce3f1cf7-a5b2-4e1a-88b8-ef7f4da25496_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\cfe6dc05-6a04-441e-a372-66f92cb712e6_blog-feature-img-2.jpg",
@@ -5712,6 +6545,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\df790e32-e861-45bb-9f49-ff87a6b98026_shop-8-gallery-1.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\dfce71dd-b99d-4419-bc2e-8943a355e144_blog-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/dfce71dd-b99d-4419-bc2e-8943a355e144_blog-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\dfce71dd-b99d-4419-bc2e-8943a355e144_blog-img-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e0ab952a-9469-4a2c-b372-635ecda9dddc_shop-13-img-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -5746,6 +6596,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\e0d110a9-a4e9-42d1-a651-53b2da935602_blog-img-3.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e1238cfa-4068-422f-a5a2-00b37a24fa7f_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/e1238cfa-4068-422f-a5a2-00b37a24fa7f_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\e1238cfa-4068-422f-a5a2-00b37a24fa7f_blog-feature-img-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e22da7ef-88f8-417a-b9a9-63694f4d183b_shop-3-img-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -5761,6 +6628,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\e22da7ef-88f8-417a-b9a9-63694f4d183b_shop-3-img-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e252ced4-d6b7-4957-9782-b7cc1ddbb3e4_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/e252ced4-d6b7-4957-9782-b7cc1ddbb3e4_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\e252ced4-d6b7-4957-9782-b7cc1ddbb3e4_blog-feature-img-2.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e2e46c40-0dcb-4302-a3b1-43a9ae40cae1_h6-img-8.jpg",
@@ -5831,6 +6715,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\e3efacf8-eb4b-40dd-a0b3-4136b4732423_shop-8-gallery-3.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e422126b-fd5f-4208-b8ae-4b752a1c05e3_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/e422126b-fd5f-4208-b8ae-4b752a1c05e3_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\e422126b-fd5f-4208-b8ae-4b752a1c05e3_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e4d3c27d-d53e-48bf-8bd1-e72c2d58212e_shop-3-img-300x400.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -5880,6 +6781,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\e53e563c-53f7-4d9c-9caa-02821f74b195_shop-3-gallery-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e5d5e783-b380-4f5b-9418-3ced56766adc_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/e5d5e783-b380-4f5b-9418-3ced56766adc_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\e5d5e783-b380-4f5b-9418-3ced56766adc_blog-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e5f8c465-dac0-405f-962d-f85b929e5f14_blog-img-4-1300x650.jpg",
@@ -5933,6 +6851,40 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\e72e5fd1-1a15-4511-ad08-815d4e938a1f_blog-img-4-1300x650.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e92c71dc-f804-424e-80f6-9f3f14a2ade1_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/e92c71dc-f804-424e-80f6-9f3f14a2ade1_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\e92c71dc-f804-424e-80f6-9f3f14a2ade1_blog-img-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\e998188f-8b15-4f26-9175-eb858720a8a0_blog-img-3.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/e998188f-8b15-4f26-9175-eb858720a8a0_blog-img-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\e998188f-8b15-4f26-9175-eb858720a8a0_blog-img-3.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\ea00f850-20ef-4d0d-9912-51a88b4876fb_shop-3-gallery-1.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -5965,6 +6917,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\ea940aea-bc39-40d4-8277-2d832b103ce9_shop-13-img-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\ebd127c3-b9df-4e05-8671-76a764e0bd84_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/ebd127c3-b9df-4e05-8671-76a764e0bd84_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\ebd127c3-b9df-4e05-8671-76a764e0bd84_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\eccb557a-f073-41d8-8d60-a3be097432a8_blog-img-1.jpg",
@@ -6103,6 +7072,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\ef7b6e0b-25cb-437b-a323-a969e0885fa9_shop-8-img.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\ef82698c-5f52-4315-80a5-4173a1f072d2_blog-feature-img-2.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/ef82698c-5f52-4315-80a5-4173a1f072d2_blog-feature-img-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\ef82698c-5f52-4315-80a5-4173a1f072d2_blog-feature-img-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\f0cc612f-79ad-4628-9b22-473a7f8a8615_blog-feature-img-2.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -6203,6 +7189,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\f450a326-3a0f-4c50-919b-8af0bb6f77db_shop-12-gallery-1-300x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\f490dfb9-0cde-46cc-af84-2f9eef2783ad_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/f490dfb9-0cde-46cc-af84-2f9eef2783ad_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\f490dfb9-0cde-46cc-af84-2f9eef2783ad_blog-feature-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\f4afc2d5-f209-414d-a936-d1cff39e8e71_user-img-2-100x100.png",
@@ -6392,6 +7395,40 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\fb6d1de3-0834-4eb4-8eeb-9bde77c8f672_shop-11-img-300x400.jpg"
     },
     {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\fbcaefb4-13a0-40bd-9afe-28c7420179b1_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/fbcaefb4-13a0-40bd-9afe-28c7420179b1_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\fbcaefb4-13a0-40bd-9afe-28c7420179b1_blog-feature-img-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\fca896f2-7871-494c-9a0f-a1e4cd662764_blog-feature-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/fca896f2-7871-494c-9a0f-a1e4cd662764_blog-feature-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\fca896f2-7871-494c-9a0f-a1e4cd662764_blog-feature-img-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\fcce0705-d924-43af-9aed-6c46535c11ba_blog-feature-img-4.jpg",
       "SourceId": "FiorelloTaskFronToBack",
       "SourceType": "Discovered",
@@ -6424,6 +7461,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\fcf396e4-ad04-47c4-91ce-ca0bc9cb34e2_h6-img-8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\fd4c88a0-0de2-4d01-98bc-a88918bddbd7_blog-img-1.jpg",
+      "SourceId": "FiorelloTaskFronToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\",
+      "BasePath": "_content/FiorelloTaskFronToBack",
+      "RelativePath": "assets/images/fd4c88a0-0de2-4d01-98bc-a88918bddbd7_blog-img-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\fd4c88a0-0de2-4d01-98bc-a88918bddbd7_blog-img-1.jpg"
     },
     {
       "Identity": "C:\\Users\\MD\\source\\repos\\FiorelloTaskFronToBack\\FiorelloTaskFronToBack\\wwwroot\\assets\\images\\ff244d4a-9cbe-4ee8-bd7e-5a7cbb0bfb15_shop-3-img-300x400.jpg",

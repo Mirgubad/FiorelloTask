@@ -9,6 +9,12 @@
 ul {
     list-style-type: none;
 }
+a.disabled {
+    pointer-events: none;
+    cursor:default;
+}
+
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
