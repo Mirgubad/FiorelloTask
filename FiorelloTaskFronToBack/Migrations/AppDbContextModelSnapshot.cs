@@ -22,6 +22,52 @@ namespace FiorelloTaskFronToBack.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("FiorelloTaskFronToBack.Models.Basket", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Baskets");
+                });
+
+            modelBuilder.Entity("FiorelloTaskFronToBack.Models.BasketProduct", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("BasketId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BasketId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("BasketProducts");
+                });
+
             modelBuilder.Entity("FiorelloTaskFronToBack.Models.Blog", b =>
                 {
                     b.Property<int>("Id")
@@ -514,6 +560,36 @@ namespace FiorelloTaskFronToBack.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("FiorelloTaskFronToBack.Models.Basket", b =>
+                {
+                    b.HasOne("FiorelloTaskFronToBack.Models.User", "User")
+                        .WithOne("Basket")
+                        .HasForeignKey("FiorelloTaskFronToBack.Models.Basket", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("FiorelloTaskFronToBack.Models.BasketProduct", b =>
+                {
+                    b.HasOne("FiorelloTaskFronToBack.Models.Basket", "Basket")
+                        .WithMany("BasketProducts")
+                        .HasForeignKey("BasketId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FiorelloTaskFronToBack.Models.Product", "Product")
+                        .WithMany("BasketProducts")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Basket");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("FiorelloTaskFronToBack.Models.BlogPhoto", b =>
                 {
                     b.HasOne("FiorelloTaskFronToBack.Models.Blog", "Blog")
@@ -631,6 +707,11 @@ namespace FiorelloTaskFronToBack.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("FiorelloTaskFronToBack.Models.Basket", b =>
+                {
+                    b.Navigation("BasketProducts");
+                });
+
             modelBuilder.Entity("FiorelloTaskFronToBack.Models.Blog", b =>
                 {
                     b.Navigation("BlogPhotos");
@@ -651,7 +732,15 @@ namespace FiorelloTaskFronToBack.Migrations
 
             modelBuilder.Entity("FiorelloTaskFronToBack.Models.Product", b =>
                 {
+                    b.Navigation("BasketProducts");
+
                     b.Navigation("ProductPhotos");
+                });
+
+            modelBuilder.Entity("FiorelloTaskFronToBack.Models.User", b =>
+                {
+                    b.Navigation("Basket")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

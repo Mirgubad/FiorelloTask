@@ -26,18 +26,62 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
             _webHostEnvironment = webHostEnvironment;
             _fileService = fileService;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(ProductIndexViewModel model)
         {
-            var product = await _appDbContext.Products.FirstOrDefaultAsync();
+            var product = FilterProduct(model);
+
             if (product == null) return NotFound();
-            var model = new ProductIndexViewModel
+            model = new ProductIndexViewModel
             {
-                Product = await _appDbContext.Products
-                .Include(c => c.Category)
-                .ToListAsync()
+                Product = await product.Include(c => c.Category).ToListAsync(),
+                Categories = await _appDbContext.Categories.Select(c => new SelectListItem
+                {
+                    Value = c.Id.ToString(),
+                    Text = c.Title,
+
+                }).ToListAsync(),
+
             };
             return View(model);
         }
+
+        private IQueryable<Product> FilterProduct(ProductIndexViewModel model)
+        {
+            var products = FilterByTitle(model.Title);
+
+            products = FilterByQuantity(products, model.MinQuantity, model.MaxQuantity);
+            products = FilterByPrice(products, model.MinPrice, model.MaxPrice);
+            products = FilterByStatus(products, model.Status);
+            products = FilterByCategory(products, model.CategoryId);
+
+            return products;
+        }
+
+      
+        private IQueryable<Product> FilterByCategory(IQueryable<Product> products, int? categoryId)
+        {
+            return products.Where(p => categoryId != null ? p.CategoryId == categoryId : true);
+        }
+        private IQueryable<Product> FilterByStatus(IQueryable<Product> products, CategoryStatus? status)
+        {
+            return products.Where(p => status != null ? p.Status == status : true);
+        }
+        private IQueryable<Product> FilterByPrice(IQueryable<Product> products, double? minPrice, double? maxPrice)
+        {
+            return products.Where(p => (minPrice != null ? p.Cost >= minPrice : true) && (maxPrice != null ? p.Cost <= maxPrice : true));
+        }
+        private IQueryable<Product> FilterByQuantity(IQueryable<Product> products, int? minQuantity, int? maxQuantity)
+        {
+
+            return products.Where(p => (minQuantity != null ? p.Quantity >= minQuantity : true) && (maxQuantity != null ? p.Quantity <= maxQuantity : true));
+        }
+        private IQueryable<Product> FilterByTitle(string? title)
+        {
+            return _appDbContext.Products.Where(p => (!string.IsNullOrEmpty(title)) ? p.Title.Contains(title) : true);
+        }
+
+
+
 
         #region Create
 
@@ -136,7 +180,7 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
         {
             var dbproduct = await _appDbContext.Products
                .Include(pp => pp.ProductPhotos)
-               .FirstOrDefaultAsync(p=>p.Id==id);
+               .FirstOrDefaultAsync(p => p.Id == id);
             var product = await _appDbContext.Products.FindAsync(id);
             if (product == null) return NotFound();
 
@@ -163,7 +207,7 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
         {
             var product = await _appDbContext.Products
            .Include(p => p.ProductPhotos)
-           .FirstOrDefaultAsync(x=>x.Id==id);
+           .FirstOrDefaultAsync(x => x.Id == id);
 
             bool isExists = await _appDbContext.Products.AnyAsync(p => p.Title.ToLower().Trim() == model.Title.ToLower().Trim()
             && model.Id != p.Id);
@@ -206,24 +250,24 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
                     }
 
 
-                 
-                        int order = 1;
-                        var productPhoto = new ProductPhoto
-                        {
-                            Name = await _fileService.UploadAsync(photo, _webHostEnvironment.WebRootPath),
-                            Order = order,
-                            ProductId = product.Id
-                        };
-                        await _appDbContext.ProductPhotos.AddAsync(productPhoto);
-                        await _appDbContext.SaveChangesAsync();
-                        order++;
-                    
+
+                    int order = 1;
+                    var productPhoto = new ProductPhoto
+                    {
+                        Name = await _fileService.UploadAsync(photo, _webHostEnvironment.WebRootPath),
+                        Order = order,
+                        ProductId = product.Id
+                    };
+                    await _appDbContext.ProductPhotos.AddAsync(productPhoto);
+                    await _appDbContext.SaveChangesAsync();
+                    order++;
+
                 }
                 if (hasError)
                 {
                     return View(model);
                 }
-              
+
             }
 
             if (model.MainPhoto != null)
@@ -281,14 +325,9 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
                 Cost = dbproduct.Cost,
                 Quantity = dbproduct.Quantity,
                 Weight = dbproduct.Weight,
-                Categories = await _appDbContext.Categories.Select(c => new SelectListItem
-                {
-                    Text = c.Title,
-                    Value = c.Id.ToString()
-                }).ToListAsync(),
                 PhotoPath = dbproduct.MainPhotoPath,
-                ProductPhotos = dbproduct.ProductPhotos
-
+                ProductPhotos = dbproduct.ProductPhotos,
+                Category = await _appDbContext.Categories.FindAsync(product.CategoryId),
             };
             return View(model);
         }
@@ -317,8 +356,6 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
         }
 
         #endregion
-
-
 
         #region DeletePhotos
 

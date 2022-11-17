@@ -19,8 +19,10 @@ namespace FiorelloTaskFronToBack.Controllers
             var model = new HomeIndexViewModel
             {
                 FlowerExperts = await _appDbContext.FlowerExperts.ToListAsync(),
+
                 HomeMainSlider = await _appDbContext.HomeMainSlider
                 .Include(hmp => hmp.HomeMainSliderPhotos).FirstOrDefaultAsync(),
+
                 Products=await _appDbContext.Products.OrderByDescending(p=>p.Id).ToListAsync(),
                 Testimonials=await _appDbContext.Testimonials.ToListAsync(),
                 Blog=await _appDbContext.Blogs.OrderByDescending(b=>b.Date).Take(3).ToListAsync()

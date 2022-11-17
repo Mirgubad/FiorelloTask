@@ -16,7 +16,7 @@ namespace FiorelloTaskFronToBack.Areas.Admin.ViewModels.Product
         public string PhotoPath { get; set; }
         public CategoryStatus Status { get; set; }
        
-        public List<SelectListItem>? Categories { get; set; }
+        public Models.Category? Category { get; set; }
 
         public List<ProductPhoto> ProductPhotos { get; set; }
 

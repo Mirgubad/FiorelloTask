@@ -1,4 +1,5 @@
 ﻿@using FiorelloTaskFronToBack.Areas.Admin.ViewModels.Product;
+@using FiorelloTaskFronToBack.Models
 @model ProductIndexViewModel;
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
@@ -7,6 +8,56 @@
             <div>
                 <a asp-action="create" asp-controller="product" class="btn btn-success">Add Product</a>
             </div>
+
+            <div class="row pt-5">
+                <form method="get" asp-action="index" asp-controller="product" asp-area="admin">
+
+                    <div class="row">
+                        <div class="col-2">
+                            <h5>By Title</h5>
+                            <label asp-for="Title"></label>
+                            <input asp-for="Title" class="form-control" />
+                        </div>
+                        <div class="col-2">
+                            <h5>By Quantity</h5>
+                            <label asp-for="MinQuantity"></label>
+                            <input asp-for="MinQuantity" class="form-control" />
+                            <label asp-for="MaxQuantity"></label>
+                            <input asp-for="MaxQuantity" class="form-control" />
+                        </div>
+
+                        <div class="col-2">
+                            <h5>By Price</h5>
+                            <label asp-for="MinPrice"></label>
+                            <input asp-for="MinPrice" class="form-control" />
+                            <label asp-for="MaxPrice"></label>
+                            <input asp-for="MaxPrice" class="form-control" />
+                        </div>
+
+                        <div class="col-2">
+                            <h5>By Category</h5>
+                            <label asp-for="CategoryId"></label>
+                            <select asp-for="CategoryId" class="form-select" asp-items="Model.Categories">
+                                <option value="">Select Category</option>
+                            </select>
+                        </div>
+                        <div class="col-2">
+                            <h5>By Status</h5>
+                            <label asp-for="Status"></label>
+                            <select asp-for="Status" class="form-select" asp-items="@Html.GetEnumSelectList<CategoryStatus>()">
+                                <option value="">Select Status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <button type="submit" class="btn waves-effect waves-light red btn-info">Search</button>                    
+                    </div>
+                </form>
+
+
+            </div>
+
+
             <table class="table table-striped">
                 <thead>
                     <tr>

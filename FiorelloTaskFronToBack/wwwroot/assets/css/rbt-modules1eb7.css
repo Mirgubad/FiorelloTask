@@ -9,37 +9,14 @@
 ul {
     list-style-type: none;
 }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 .quantity-control {
     cursor: pointer;
-}
-
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-}
-
-input[type=number] {
-    text-align: center;
-    outline: none;
-}
-
-.inputQuantity {
-    border: 1.5px solid red;
-    border-radius: 15px;
-    width: fit-content;
-    display: flex;
-}
-
-.quantity-control-more, .quantity-control-less {
-    border: none;
-    font-size: 22px;
-    background: none;
-}
-
-   
-
-.quantity-control:focus {
-    color: red;
 }
 
 #addToCard {

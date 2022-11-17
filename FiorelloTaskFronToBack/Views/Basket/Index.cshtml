@@ -1,5 +1,5 @@
 ﻿@using FiorelloTaskFronToBack.ViewModels.Basket;
-@model List<BasketListitemViewModel>;
+@model BasketIndexViewModel;
 
 <div class="mkdf-grid">
     <section class="h-100 h-custom" >
@@ -13,14 +13,14 @@
                                     <div class="p-5">
                                         <div class="d-flex justify-content-between align-items-center mb-5">
                                             <h1 class="fw-bold mb-0 text-black">Shopping Cart</h1>
-                                            <h6 class="mb-0 text-muted">@Model.Count items</h6>
+                                            <h6 class="mb-0 text-muted">@Model.BasketProducts.Count items</h6>
                                         </div>
                                         <hr class="my-4">
-                                        @foreach (var basketProduct in Model)
+                                        @foreach (var basketProduct in Model.BasketProducts)
                                         {
                                             <div class="row mb-4 d-flex justify-content-between align-items-center basket-product" id="@basketProduct.Id">
                                                 <div class="col-md-2 col-lg-2 col-xl-2">
-                                                    <img src="~/assets/images/@basketProduct.Photoname"
+                                                    <img src="~/assets/images/@basketProduct.PhotoName"
                                                      class="img-fluid rounded-3" >
                                                 </div>
                                                 <div class="col-md-3 col-lg-3 col-xl-3">
@@ -36,7 +36,7 @@
                                                         <i class="fas fa-minus"></i>
                                                     </button>
 
-                                                    <input asp-for="@basketProduct.Quantity" min="1" max="10"
+                                                    <input asp-for="@basketProduct.Quantity" min="1"
                                                        class="form-control form-control-sm" />
 
                                                     <button class="btn btn-link px-2 quantity-control-more"
@@ -49,7 +49,7 @@
                                                     <h6 class="mb-0">€ @basketProduct.Price</h6>
                                                 </div>
                                                 <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                                                    <button style="border:none" class="text-muted"><i class="fa fa-trash" id="deleteButton" data-id="@basketProduct.Id"></i></button>
+                                                    <button style="border:none;background:none;" class="text-danger"><i class="fa fa-trash" id="deleteButton" data-id="@basketProduct.Id"></i></button>
                                                 </div>
                                             </div>
                                         }

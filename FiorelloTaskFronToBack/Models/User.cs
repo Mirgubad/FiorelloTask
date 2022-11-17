@@ -6,5 +6,7 @@ namespace FiorelloTaskFronToBack.Models
     {
         public string Fullname { get; set; }
 
+        public Basket Basket { get; set; }
+
     }
 }

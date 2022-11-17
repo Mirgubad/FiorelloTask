@@ -21,6 +21,7 @@ namespace FiorelloTaskFronToBack.Models
         [Display (Name ="Category")]
         public Category Category { get; set; }
 
+        public ICollection<BasketProduct> BasketProducts { get; set; }
     }
 
     public enum CategoryStatus

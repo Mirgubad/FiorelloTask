@@ -45,24 +45,9 @@
                         <td>@Html.Raw(Model.Description)</td>
                         <td>@Model.Quantity</td>
                         <td>@Model.Cost</td>
-                        <td>
-                            @foreach (var i in Enum.GetNames(typeof(CategoryStatus)))
-                            {
-                                if (i == Model.Status.ToString())
-                                {
-                                    <a>@i</a>
-                                }
-                            }
-                        </td>
+                        <td>@Model.Status.ToString()</td>
                         <td>@Model.Weight</td>
-                        <td>
-                            @foreach (var item in Model.Categories)
-                            {
-                                if (item.Value == @Model.CategoryId.ToString())
-                                {
-                                    <a>@item.Text</a>
-                                }
-                            }
+                        <td>@Model.Category.Title</td>
                     </tr>
                 </tbody>
             </table>

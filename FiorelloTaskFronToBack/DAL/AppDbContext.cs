@@ -21,5 +21,7 @@ namespace FiorelloTaskFronToBack.DAL
         public DbSet<BlogPhoto> BlogPhotos { get; set; }
         public DbSet<BlogText> BlogTexts { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<Basket> Baskets { get; set; }
+        public DbSet<BasketProduct> BasketProducts { get; set; }
     }
 }
