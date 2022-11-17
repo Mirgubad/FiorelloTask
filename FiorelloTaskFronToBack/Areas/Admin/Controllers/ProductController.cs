@@ -38,9 +38,7 @@ namespace FiorelloTaskFronToBack.Areas.Admin.Controllers
                 {
                     Value = c.Id.ToString(),
                     Text = c.Title,
-
                 }).ToListAsync(),
-
             };
             return View(model);
         }

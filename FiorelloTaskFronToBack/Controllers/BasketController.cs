@@ -28,13 +28,14 @@ namespace FiorelloTaskFronToBack.Controllers
                 .Include(b => b.BasketProducts)
                 .ThenInclude(bp => bp.Product)
                 .FirstOrDefaultAsync(b => b.UserId == user.Id);
+           
+            var model = new BasketIndexViewModel();
 
             if (basket == null)
             {
                 List<BasketAddViewModel> basketAddViewModels = new List<BasketAddViewModel>();
+                return View(model);
             }
-            var model = new BasketIndexViewModel();
-
             foreach (var dbbasketProduct in basket.BasketProducts)
             {
                 var basketProduct = new BasketProductViewModel
