@@ -28,7 +28,7 @@ namespace FiorelloTaskFronToBack.Controllers
                 .Include(b => b.BasketProducts)
                 .ThenInclude(bp => bp.Product)
                 .FirstOrDefaultAsync(b => b.UserId == user.Id);
-           
+
             var model = new BasketIndexViewModel();
 
             if (basket == null)

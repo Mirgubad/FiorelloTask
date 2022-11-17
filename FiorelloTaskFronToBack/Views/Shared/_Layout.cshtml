@@ -990,7 +990,11 @@
 											<span aria-hidden="true" class="mkdf-icon-font-elegant icon_search "></span>
 										</span>
 									</a>						
-									<div class="mkdf-shopping-cart-holder mkdf-cart-info-is-disabled">
+									
+									@{
+
+										if(User.Identity.IsAuthenticated){
+											<div class="mkdf-shopping-cart-holder mkdf-cart-info-is-disabled">
 										<div class="mkdf-shopping-cart-inner">
 											<a itemprop="url" class="mkdf-header-cart" asp-action="index" asp-controller="basket">
 												<span class="mkdf-cart-icon-number-holder">
@@ -1002,7 +1006,7 @@
 												<span class="mkdf-cart-info">
 													<span class="mkdf-cart-info-total">(<span
 															class="woocommerce-Price-amount amount"><span
-																class="woocommerce-Price-currencySymbol">&#036;</span>0</span>)</span>
+																class="woocommerce-Price-currencySymbol">&#036;</span>0</span>)</span>															
 												</span>
 											</a>
 											<div class="mkdf-shopping-cart-dropdown">
@@ -1012,6 +1016,9 @@
 											</div>
 										</div>
 									</div>
+										}
+									}
+
 								</div>
 							</div>
 						</div>
